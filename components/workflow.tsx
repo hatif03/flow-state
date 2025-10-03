@@ -60,9 +60,14 @@ export default function Workflow() {
     return (
       <div className="w-full h-full flex items-center justify-center">
         <SidebarTrigger className="absolute top-4 left-4" />
-        <div className="text-center flex flex-col items-center gap-2">
+        <div className="text-center flex flex-col items-center gap-3">
+          <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center mb-2">
+            <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
           <p className="text-foreground font-semibold text-2xl tracking-tight">No Workflow Selected</p>
-          <p className="text-sm text-muted-foreground">Create a new workflow from the sidebar to begin building AI-powered automation</p>
+          <p className="text-sm text-muted-foreground max-w-md">Create a new workflow from the sidebar to begin building AI-powered automation</p>
         </div>
       </div>
     );

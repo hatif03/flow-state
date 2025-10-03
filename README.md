@@ -1,115 +1,249 @@
-<a href="https://flowstate.app/" target="_blank" rel="noopener">
-  Flow State
-</a>
-
-<h4 align="center">
-  <a href="https://flowstate.app">Flow State App</a>
-</h4>
+# FlowState
 
 <div align="center">
-  <h2>
-    Free node-based AI workflow builder. </br>
-    Reusable and efficient for productivity. </br>
-  <br />
-  </h2>
-</div>
+  <img src="public/workflow-svgrepo-com.svg" alt="FlowState Logo" width="120" height="120" />
+  
+  <h1>Build AI Workflows Without Code</h1>
+  
+  <p align="center">
+    <strong>Create powerful AI workflows with an intuitive visual interface. Connect any AI model, process data, and automate tasks—all while keeping your data private and secure.</strong>
+  </p>
 
-<br />
-<p align="center">
-  <a href="https://github.com/yourusername/flow-state/blob/master/LICENSE">
-    <img alt="Flow State is released under the MIT license." src="https://img.shields.io/badge/license-MIT-blue.svg"  />
-  </a>
-</p>
-
-<div align="center">
-  <p>
-    Create reusable AI tasks with drag-and-drop nodes. Fully local, free, and open-source. Use any AI model with your own API keys.
+  <p align="center">
+    <a href="https://github.com/hatif03/flow-state/blob/master/LICENSE">
+      <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" />
+    </a>
+    <a href="https://github.com/hatif03/flow-state">
+      <img alt="GitHub Stars" src="https://img.shields.io/github/stars/hatif03/flow-state?style=social" />
+    </a>
+    <a href="https://flowstate.app">
+      <img alt="Live Demo" src="https://img.shields.io/badge/🌐%20Live%20Demo-flowstate.app-green" />
+    </a>
   </p>
 </div>
 
-## What Problem It Solves
+---
 
-Flow State is for anyone who is tired of repeating themselves to AI.
+## 🚀 What is FlowState?
 
-If you find yourself frequently typing the same instructions into a chat window — like "proofread this," "summarize that," or "translate this" — you're wasting valuable time. System Prompt eliminates this repetition. It allows you to create reusable workflows for your common AI tasks, so you can stop rewriting prompts and focus on the actual work.
+FlowState is a **privacy-first, no-code AI workflow builder** that runs entirely in your browser. Instead of repeatedly typing the same prompts into chat interfaces, you can create reusable, visual workflows that chain multiple AI operations together.
 
-## Features
+### The Problem We Solve
 
-Flow State offers:
+If you find yourself:
+- 🔄 **Repeating the same AI instructions** over and over
+- ⏰ **Wasting time** on repetitive prompt engineering
+- 🔒 **Worried about data privacy** with AI services
+- 🎯 **Needing complex workflows** that go beyond simple chat
 
-- 💯&nbsp;Free & open-source.
-- 🎨&nbsp;Infinite canvas, node-based workflow builder.
-- 🔄&nbsp;Reusable AI templates and workflows.
-- 🔗&nbsp;Chain multiple AI operations seamlessly.
-- 🔑&nbsp;Bring your own API keys - works with any AI model.
-- 💻&nbsp;Runs entirely in your browser - your data stays private.
-- 🌓&nbsp;Dark mode support.
-- 📱&nbsp;Responsive design works on all devices.
-- 💾&nbsp;Local storage - your workflows are saved automatically.
-- 🎯&nbsp;Drag-and-drop node creation and connection.
-- ✍️&nbsp;Rich text editing with markdown support.
-- 📊&nbsp;Visual flow connections between nodes.
-- 🏷️&nbsp;Annotation nodes for documentation.
+**FlowState is your solution.**
 
-## Use Cases
+---
 
-**Email Management**
-- Create email response templates with specific tone and style
-- Just change the input email, get consistent professional responses
+## ✨ Key Features
 
-**Content Creation**
-- Design once, deploy everywhere: Create social media posts for Twitter, LinkedIn, and Instagram from a single input
-- Maintain brand voice across all platforms
+### 🎨 **Visual Workflow Builder**
+- **Drag-and-drop interface** - No coding required
+- **Infinite canvas** - Build workflows of any complexity
+- **Real-time connections** - See data flow between nodes
+- **Responsive design** - Works on desktop, tablet, and mobile
 
-**Data Processing**
-- Build multi-step analysis workflows
-- Chain data cleaning, analysis, and reporting operations
+### 🤖 **AI Model Support**
+- **Any AI model** - OpenAI, Anthropic, Google, XAI, and more
+- **Your own API keys** - Complete control over costs and usage
+- **Model switching** - Test different models in the same workflow
+- **Custom parameters** - Fine-tune temperature, tokens, and more
 
-*and many more... check out the [demo examples](https://flowstate.app)*
+### 🔒 **Privacy & Security**
+- **100% local execution** - Your data never leaves your browser
+- **No data collection** - We don't store your workflows or data
+- **Client-side processing** - Complete privacy and security
+- **Offline capable** - Works without internet (except for AI calls)
 
-## Why I built this
+### 🔄 **Workflow Management**
+- **Save & organize** - Multiple workflows with custom names
+- **Import/Export** - Share workflows with others
+- **Templates** - Pre-built workflows for common tasks
+- **Version control** - Track changes and iterations
 
-Honestly, it came from a personal frustration. I was wasting too much time opening new chat windows, writing the same instructions over and over, and then pasting my text.
+### 🎯 **Node Types**
+- **Prompt Nodes** - Text inputs with labels and validation
+- **AI Nodes** - Connect to any AI model with custom system prompts
+- **Markdown Nodes** - Format and display outputs beautifully
+- **Annotation Nodes** - Add documentation and notes
+- **Error Nodes** - Handle and display errors gracefully
 
-It was a constant cycle of things like:
-* "Proofread this text, use a casual language..." -> paste text.
-* "Respond to this email saying X, Y, Z..." -> paste email.
+---
 
-These repetitive tasks were a drag on my productivity, and I wanted to create a solution that solved this specific issue.
+## 🎯 Use Cases
 
-What started as a simple tool for reusable prompts ended up growing into something even more versatile. System Prompt is now a node-based workflow builder that allows for chaining multiple AI operations. It's a bit like tldraw's computer (which is a huge inspiration!), but with a focus on giving you more fine-grained control and creating production-ready workflows.
+### 📧 **Email Automation**
+```
+Email Input → Extract Key Info → Generate Response → Format Output
+```
+- Process incoming emails automatically
+- Extract important information
+- Generate professional responses
+- Maintain consistent tone and style
 
-## Quick start
+### 📝 **Content Creation**
+```
+Topic Input → Research → Generate Content → Format for Platform → Schedule
+```
+- Create social media posts for multiple platforms
+- Generate blog posts and articles
+- Maintain brand voice across channels
+- Batch content creation
 
-**Note:** Flow State runs entirely in your browser - no installation required!
+### 📊 **Data Analysis**
+```
+Data Input → Clean & Process → Analyze → Generate Insights → Create Report
+```
+- Process CSV files and spreadsheets
+- Generate data insights and summaries
+- Create automated reports
+- Transform data between formats
 
-Simply visit [flowstate.app](https://flowstate.app) and start building:
+### 🎨 **Creative Workflows**
+```
+Idea Input → Brainstorm → Refine → Generate Variations → Select Best
+```
+- Creative writing and ideation
+- Image generation prompts
+- Design briefs and specifications
+- Content variations and A/B testing
 
-1. **Create Nodes**: Add prompt, AI, markdown, or annotation nodes to your workflow
-2. **Define Instructions**: Set up your system prompts and parameters
-3. **Connect & Chain**: Link nodes to create complex workflows
-4. **Save & Reuse**: Your templates are ready for any future use
+---
 
-## Node Types
+## 🚀 Quick Start
 
-Each node has a Run button, when you click on it, it will run the node and send the result to the next connected node.
+### Option 1: Use Online (Recommended)
+1. Visit **[flowstate.app](https://flowstate.app)**
+2. Click **"Launch App"** or **"Start Building"**
+3. Add your API keys in the sidebar
+4. Start building your first workflow!
 
-- **Prompt Nodes**: It's a text input, you can use it to provide inputs to your AI nodes. Add a label to differentiate between different prompt nodes.
-- **AI Nodes**: Take any inputs like prompt nodes and generate an LLM response based those inputs, the AI model you choose and the system prompt you provide.
-- **Markdown Nodes**: Format and display outputs as Markdown text from any node connected to it.
-- **Annotation Nodes**: Add documentation and guidance to your workflow. (Not runnable)
+### Option 2: Run Locally
+```bash
+# Clone the repository
+git clone https://github.com/hatif03/flow-state.git
+cd flow-state
 
-## Contributing
+# Install dependencies
+npm install
 
-- Missing something or found a bug? [Report here](https://github.com/yourusername/flow-state/issues).
-- Want to contribute? Check out our contribution guide.
-- Have ideas for new features? Let us know in the discussions.
+# Start development server
+npm run dev
 
-## Credits
+# Open http://localhost:3000 in your browser
+```
 
-- **Node-based graph**: Powered by [React Flow](https://reactflow.dev/) for smooth visual interactions
-- **Inspiration**: Influenced by [tldraw computer](https://computer.tldraw.com/) with a focus on control and production-ready AI workflows
+---
 
-## License
+## 🛠️ Getting Started
 
-Open source MIT and free to use. See LICENSE for details.
+### 1. **Set Up API Keys**
+- Click the "API Keys" button in the sidebar
+- Add your API keys for the AI models you want to use
+- Keys are stored locally in your browser
+
+### 2. **Create Your First Workflow**
+- Click "New Workflow" to create a blank canvas
+- Drag nodes from the toolbar onto the canvas
+- Connect nodes by dragging from output to input ports
+- Click the "Run" button on any node to execute
+
+### 3. **Build Complex Workflows**
+- Chain multiple AI operations together
+- Use prompt nodes for different inputs
+- Add markdown nodes to format outputs
+- Use annotation nodes for documentation
+
+### 4. **Save and Reuse**
+- Your workflows are automatically saved locally
+- Give them descriptive names
+- Import/export workflows to share with others
+
+---
+
+## 🎨 Screenshots
+
+<div align="center">
+  <img src="https://via.placeholder.com/800x400/1e293b/ffffff?text=Workflow+Builder+Interface" alt="Workflow Builder" />
+  <p><em>Visual workflow builder with drag-and-drop nodes</em></p>
+</div>
+
+---
+
+## 🏗️ Architecture
+
+FlowState is built with modern web technologies:
+
+- **Frontend**: Next.js 15, React 19, TypeScript
+- **UI**: Radix UI, Tailwind CSS
+- **State Management**: Zustand
+- **Workflow Engine**: Custom node-based system
+- **AI Integration**: Vercel AI SDK
+- **Deployment**: Vercel (or any static hosting)
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+### 🐛 **Report Issues**
+- Found a bug? [Open an issue](https://github.com/hatif03/flow-state/issues)
+- Have a feature request? [Start a discussion](https://github.com/hatif03/flow-state/discussions)
+
+### 💻 **Code Contributions**
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
+
+### 📚 **Documentation**
+- Improve existing documentation
+- Add examples and tutorials
+- Translate to other languages
+
+---
+
+## 🎯 Roadmap
+
+- [ ] **More Node Types**: Database, API, file processing nodes
+- [ ] **Collaboration**: Real-time collaborative editing
+- [ ] **Templates**: Pre-built workflow templates
+- [ ] **Plugins**: Custom node development
+- [ ] **Mobile App**: Native mobile experience
+- [ ] **Cloud Sync**: Optional cloud storage for workflows
+
+---
+
+## 🙏 Acknowledgments
+
+- **React Flow** - For the amazing node-based interface
+- **tldraw** - Inspiration for the visual workflow approach
+- **Vercel AI SDK** - For seamless AI model integration
+- **Radix UI** - For accessible, beautiful components
+- **The AI Community** - For feedback and support
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+  <p>
+    <strong>Built with ❤️ for the AI community</strong>
+  </p>
+  <p>
+    <a href="https://flowstate.app">🌐 Try FlowState</a> •
+    <a href="https://github.com/hatif03/flow-state">⭐ Star on GitHub</a> •
+    <a href="https://github.com/hatif03/flow-state/issues">🐛 Report Issues</a>
+  </p>
+</div>

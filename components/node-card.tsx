@@ -56,23 +56,23 @@ export function NodeCard({
   return (
     <div
       className={cn(
-        "flex flex-col bg-card rounded-xl h-full transition-all text-card-foreground border border-border",
-        isError && "border-red-500 dark:border-red-900 bg-red-50 dark:bg-red-950"
+        "flex flex-col bg-card rounded-xl h-full transition-all text-card-foreground border border-border shadow-sm hover:shadow-md",
+        isError && "border-red-500 dark:border-red-400 bg-red-50 dark:bg-red-950/20"
       )}
     >
       <div
         className={cn(
           "bg-card transition-colors border-b p-3  flex items-center gap-3 rounded-t-xl",
           node.selected && "bg-muted",
-          isLoading && "dark:bg-blue-500 bg-blue-200"
+          isLoading && "bg-primary/10 dark:bg-primary/20"
         )}
       >
         <div
           className={cn(
             "text-sm text-muted-foreground transition-colors",
             node.selected && "text-primary",
-            isLoading && "dark:text-white text-foreground",
-            error && "text-red-500"
+            isLoading && "text-primary",
+            error && "text-red-500 dark:text-red-400"
           )}
         >
           {title}
@@ -80,7 +80,7 @@ export function NodeCard({
         {node.data?.dirty && (
           <div
             title="This node has outdated results, run it again to refresh"
-            className="size-1.5 shrink-0 -ml-1 bg-orange-500/50 rounded-full"
+            className="size-1.5 shrink-0 -ml-1 bg-orange-500 dark:bg-orange-400 rounded-full animate-pulse"
           ></div>
         )}
         <div className="ml-auto"></div>
@@ -89,7 +89,7 @@ export function NodeCard({
             <Tooltip>
               <TooltipTrigger asChild>
                 <Button variant="ghost" className="-m-1 size-8" size={"icon"}>
-                  <RiErrorWarningFill className="size-5 text-red-500" />
+                  <RiErrorWarningFill className="size-5 text-red-500 dark:text-red-400" />
                 </Button>
               </TooltipTrigger>
               <TooltipContent className="whitespace-pre-wrap max-w-lg">{error}</TooltipContent>

@@ -21,6 +21,7 @@ import {
   RiKeyLine,
   RiMoonLine,
   RiSunLine,
+  RiHomeLine,
 } from "@remixicon/react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
@@ -82,12 +83,27 @@ export function AppSidebar() {
     <Sidebar>
       <SidebarHeader>
         <div className="px-2 flex items-center">
-          <span className="text-2xl tracking-tighter font-sans leading-none font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent drop-shadow-sm">
+          <span className="text-2xl tracking-tighter font-sans leading-none font-bold bg-gradient-to-r from-orange-500 via-amber-500 to-teal-500 bg-clip-text text-transparent drop-shadow-sm">
             FlowState
           </span>
         </div>
       </SidebarHeader>
       <SidebarContent>
+        <SidebarGroup>
+          <SidebarGroupLabel>Navigation</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              <SidebarMenuItem>
+                <Link href="/">
+                  <SidebarMenuButton>
+                    <RiHomeLine className="size-4 shrink-0" />
+                    Home
+                  </SidebarMenuButton>
+                </Link>
+              </SidebarMenuItem>
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
         <SidebarGroup>
           <SidebarGroupLabel>New</SidebarGroupLabel>
           <SidebarGroupContent>
@@ -140,7 +156,7 @@ export function AppSidebar() {
             </ApiKeys>
           </SidebarMenuItem>
           <SidebarMenuItem>
-            <Link href="https://github.com/yourusername/flow-state" target="_blank">
+            <Link href="https://github.com/hatif03/flow-state" target="_blank">
               <SidebarMenuButton>
                 <RiGithubLine className="size-4 shrink-0" />
                 GitHub
