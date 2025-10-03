@@ -4,17 +4,17 @@ import { Workflow, getCleanedWorkflow } from "./workflow-store";
 export const templates: Workflow[] = [
   {
     id: "4LdefduJLREJuZYhz_k2g",
-    name: "Welcome 👋",
+    name: "Welcome",
     nodes: [
       {
         id: "1751403213284-7dr7luzzv",
         data: {
           prompt:
-            "![Flow State](https://flowstate.app/og-dark.png)\n\n## Free node-based AI workflow builder. Reusable and efficient for productivity.\n\nCreate reusable AI tasks with drag-and-drop nodes. Fully local, free, and open-source. Use any AI model with your own API keys.\n\n## Features\n\nFlow State offers:\n\n- 💯&nbsp;Free & open-source.\n- 🎨&nbsp;Infinite canvas, node-based workflow builder.\n- 🔄&nbsp;Reusable AI templates and workflows.\n- 🔗&nbsp;Chain multiple AI operations seamlessly.\n- 🔑&nbsp;Bring your own API keys - works with any AI model.\n- 💻&nbsp;Runs entirely in your browser - your data stays private.\n- 🌓&nbsp;Dark mode support.\n- 📱&nbsp;Responsive design works on all devices.\n- 💾&nbsp;Local storage - your workflows are saved automatically.\n- 🎯&nbsp;Drag-and-drop node creation and connection.\n- ✍️&nbsp;Rich text editing with markdown support.\n- 📊&nbsp;Visual flow connections between nodes.\n- 🏷️&nbsp;Annotation nodes for documentation.\n\n## Use Cases\n\n**Email Management**\n- Create email response templates with specific tone and style\n- Just change the input email, get consistent professional responses\n\n**Content Creation**\n- Design once, deploy everywhere: Create social media posts for Twitter, LinkedIn, and Instagram from a single input\n- Maintain brand voice across all platforms\n\n**Data Processing**\n- Build multi-step analysis workflows\n- Chain data cleaning, analysis, and reporting operations\n\n*and many more... check out the [demo examples](https://flowstate.app)*\n\n## Quick start\n\n**Note:** Flow State runs entirely in your browser - no installation required!\n\nSimply visit [flowstate.app](https://flowstate.app) and start building:\n\n1. **Create Nodes**: Add prompt, AI, markdown, or annotation nodes to your workflow\n2. **Define Instructions**: Set up your system prompts and parameters\n3. **Connect & Chain**: Link nodes to create complex workflows\n4. **Save & Reuse**: Your templates are ready for any future use\n\n## Node Types\n\nEach node has a Run button, when you click on it, it will run the node and send the result to the next connected node.\n\n- **Prompt Nodes**: It's a text input, you can use it to provide inputs to your AI nodes. Add a label to differentiate between different prompt nodes.\n- **AI Nodes**: Take any inputs like prompt nodes and generate an LLM response based those inputs, the AI model you choose and the system prompt you provide.\n- **Markdown Nodes**: Format and display outputs as Markdown text from any node connected to it.\n- **Annotation Nodes**: Add documentation and guidance to your workflow. (Not runnable)\n\n## Contributing\n\n- Missing something or found a bug? [Report here](https://github.com/yourusername/flow-state/issues).\n- Want to contribute? Check out our contribution guide.\n- Have ideas for new features? Let us know in the discussions.\n\n## Credits\n\n- **Node-based graph**: Powered by [React Flow](https://reactflow.dev/) for smooth visual interactions\n- **Inspiration**: Influenced by [tldraw computer](https://computer.tldraw.com/) with a focus on control and production-ready AI workflows\n\n## License\n\nOpen source MIT and free to use. See LICENSE for details.\n",
+            "\n\n## Visual AI Workflow Builder\n\nBuild powerful AI workflows with an intuitive node-based interface. Create, connect, and automate AI tasks without coding.\n\n## Key Features\n\n- **Visual Workflow Designer**: Drag-and-drop interface for building complex AI workflows\n- **Reusable Templates**: Save and share workflow templates for common tasks\n- **Node Chaining**: Connect multiple AI operations to create sophisticated pipelines\n- **Multi-Provider Support**: Use any AI model with your own API keys\n- **Client-Side Processing**: Everything runs in your browser - your data never leaves your device\n- **Dark/Light Mode**: Comfortable viewing in any environment\n- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile\n- **Auto-Save**: Your workflows are automatically saved locally\n- **Rich Text Support**: Full markdown support for content creation\n- **Visual Connections**: Clear visual flow between connected nodes\n- **Documentation**: Add notes and annotations to document your workflows\n\n## Common Use Cases\n\n**Email Automation**\n- Generate professional email responses with consistent tone and style\n- Process incoming emails and create appropriate replies automatically\n\n**Content Marketing**\n- Create multi-platform social media content from a single source\n- Maintain brand consistency across Twitter, LinkedIn, and Instagram\n- Generate blog posts, product descriptions, and marketing copy\n\n**Data Analysis**\n- Build automated data processing pipelines\n- Clean, analyze, and report on datasets with AI assistance\n- Generate insights and summaries from raw data\n\n**Document Processing**\n- Extract key information from documents\n- Summarize long texts and reports\n- Translate and format content for different audiences\n\n## Getting Started\n\n**No Installation Required** - Flow State runs entirely in your browser!\n\n1. **Add Nodes**: Create prompt, AI, markdown, or annotation nodes\n2. **Configure Settings**: Set up system prompts and select AI models\n3. **Connect Workflows**: Link nodes to create processing pipelines\n4. **Execute & Iterate**: Run workflows and refine based on results\n\n## Node Types\n\n**Prompt Nodes**\n- Text input fields for providing data to your workflows\n- Add labels to organize multiple inputs\n- Can be connected to AI nodes for processing\n\n**AI Nodes**\n- Process inputs using various AI models\n- Configure system prompts to define behavior\n- Support reasoning and advanced AI features\n\n**Markdown Nodes**\n- Format and display AI outputs as rich text\n- Support full markdown syntax including tables, code, and links\n- Perfect for final output formatting\n\n**Annotation Nodes**\n- Add documentation and notes to your workflows\n- Help explain complex processes and provide guidance\n- Non-executable nodes for workflow documentation\n\n## Contributing\n\n- **Report Issues**: Found a bug or have a feature request? [Open an issue](https://github.com/yourusername/flow-state/issues)\n- **Contribute Code**: Check out our contribution guidelines\n- **Share Ideas**: Join discussions about new features and improvements\n\n## Technology\n\n- **Visual Interface**: Built with [React Flow](https://reactflow.dev/) for smooth interactions\n- **AI Integration**: Supports multiple AI providers through the AI SDK\n- **Inspired By**: [tldraw computer](https://computer.tldraw.com/) with focus on production-ready AI workflows\n\n## License\n\nMIT License - Free for personal and commercial use. See LICENSE file for details.\n",
           dirty: false,
           loading: false,
           output:
-            "![Flow State](https://flowstate.app/og-dark.png)\n\n## Free node-based AI workflow builder. Reusable and efficient for productivity.\n\nCreate reusable AI tasks with drag-and-drop nodes. Fully local, free, and open-source. Use any AI model with your own API keys.\n\n## Features\n\nFlow State offers:\n\n- 💯&nbsp;Free & open-source.\n- 🎨&nbsp;Infinite canvas, node-based workflow builder.\n- 🔄&nbsp;Reusable AI templates and workflows.\n- 🔗&nbsp;Chain multiple AI operations seamlessly.\n- 🔑&nbsp;Bring your own API keys - works with any AI model.\n- 💻&nbsp;Runs entirely in your browser - your data stays private.\n- 🌓&nbsp;Dark mode support.\n- 📱&nbsp;Responsive design works on all devices.\n- 💾&nbsp;Local storage - your workflows are saved automatically.\n- 🎯&nbsp;Drag-and-drop node creation and connection.\n- ✍️&nbsp;Rich text editing with markdown support.\n- 📊&nbsp;Visual flow connections between nodes.\n- 🏷️&nbsp;Annotation nodes for documentation.\n\n## Use Cases\n\n**Email Management**\n- Create email response templates with specific tone and style\n- Just change the input email, get consistent professional responses\n\n**Content Creation**\n- Design once, deploy everywhere: Create social media posts for Twitter, LinkedIn, and Instagram from a single input\n- Maintain brand voice across all platforms\n\n**Data Processing**\n- Build multi-step analysis workflows\n- Chain data cleaning, analysis, and reporting operations\n\n*and many more... check out the [demo examples](https://flowstate.app)*\n\n## Quick start\n\n**Note:** Flow State runs entirely in your browser - no installation required!\n\nSimply visit [flowstate.app](https://flowstate.app) and start building:\n\n1. **Create Nodes**: Add prompt, AI, markdown, or annotation nodes to your workflow\n2. **Define Instructions**: Set up your system prompts and parameters\n3. **Connect & Chain**: Link nodes to create complex workflows\n4. **Save & Reuse**: Your templates are ready for any future use\n\n## Node Types\n\nEach node has a Run button, when you click on it, it will run the node and send the result to the next connected node.\n\n- **Prompt Nodes**: It's a text input, you can use it to provide inputs to your AI nodes. Add a label to differentiate between different prompt nodes.\n- **AI Nodes**: Take any inputs like prompt nodes and generate an LLM response based those inputs, the AI model you choose and the system prompt you provide.\n- **Markdown Nodes**: Format and display outputs as Markdown text from any node connected to it.\n- **Annotation Nodes**: Add documentation and guidance to your workflow. (Not runnable)\n\n## Contributing\n\n- Missing something or found a bug? [Report here](https://github.com/yourusername/flow-state/issues).\n- Want to contribute? Check out our contribution guide.\n- Have ideas for new features? Let us know in the discussions.\n\n## Credits\n\n- **Node-based graph**: Powered by [React Flow](https://reactflow.dev/) for smooth visual interactions\n- **Inspiration**: Influenced by [tldraw computer](https://computer.tldraw.com/) with a focus on control and production-ready AI workflows\n\n## License\n\nOpen source MIT and free to use. See LICENSE for details.\n",
+            "\n\n## Visual AI Workflow Builder\n\nBuild powerful AI workflows with an intuitive node-based interface. Create, connect, and automate AI tasks without coding.\n\n## Key Features\n\n- **Visual Workflow Designer**: Drag-and-drop interface for building complex AI workflows\n- **Reusable Templates**: Save and share workflow templates for common tasks\n- **Node Chaining**: Connect multiple AI operations to create sophisticated pipelines\n- **Multi-Provider Support**: Use any AI model with your own API keys\n- **Client-Side Processing**: Everything runs in your browser - your data never leaves your device\n- **Dark/Light Mode**: Comfortable viewing in any environment\n- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile\n- **Auto-Save**: Your workflows are automatically saved locally\n- **Rich Text Support**: Full markdown support for content creation\n- **Visual Connections**: Clear visual flow between connected nodes\n- **Documentation**: Add notes and annotations to document your workflows\n\n## Common Use Cases\n\n**Email Automation**\n- Generate professional email responses with consistent tone and style\n- Process incoming emails and create appropriate replies automatically\n\n**Content Marketing**\n- Create multi-platform social media content from a single source\n- Maintain brand consistency across Twitter, LinkedIn, and Instagram\n- Generate blog posts, product descriptions, and marketing copy\n\n**Data Analysis**\n- Build automated data processing pipelines\n- Clean, analyze, and report on datasets with AI assistance\n- Generate insights and summaries from raw data\n\n**Document Processing**\n- Extract key information from documents\n- Summarize long texts and reports\n- Translate and format content for different audiences\n\n## Getting Started\n\n**No Installation Required** - Flow State runs entirely in your browser!\n\n1. **Add Nodes**: Create prompt, AI, markdown, or annotation nodes\n2. **Configure Settings**: Set up system prompts and select AI models\n3. **Connect Workflows**: Link nodes to create processing pipelines\n4. **Execute & Iterate**: Run workflows and refine based on results\n\n## Node Types\n\n**Prompt Nodes**\n- Text input fields for providing data to your workflows\n- Add labels to organize multiple inputs\n- Can be connected to AI nodes for processing\n\n**AI Nodes**\n- Process inputs using various AI models\n- Configure system prompts to define behavior\n- Support reasoning and advanced AI features\n\n**Markdown Nodes**\n- Format and display AI outputs as rich text\n- Support full markdown syntax including tables, code, and links\n- Perfect for final output formatting\n\n**Annotation Nodes**\n- Add documentation and notes to your workflows\n- Help explain complex processes and provide guidance\n- Non-executable nodes for workflow documentation\n\n## Contributing\n\n- **Report Issues**: Found a bug or have a feature request? [Open an issue](https://github.com/yourusername/flow-state/issues)\n- **Contribute Code**: Check out our contribution guidelines\n- **Share Ideas**: Join discussions about new features and improvements\n\n## Technology\n\n- **Visual Interface**: Built with [React Flow](https://reactflow.dev/) for smooth interactions\n- **AI Integration**: Supports multiple AI providers through the AI SDK\n- **Inspired By**: [tldraw computer](https://computer.tldraw.com/) with focus on production-ready AI workflows\n\n## License\n\nMIT License - Free for personal and commercial use. See LICENSE file for details.\n",
           label: "welcome message",
         },
         position: {
@@ -74,7 +74,7 @@ export const templates: Workflow[] = [
       {
         id: "1751466867054-fc2d9xsmm",
         data: {
-          text: "Hi Welcome to Flow State!\n\nHere's how it works, you have 4 nodes:\n- Prompt: used as input for AI\n- AI: generate an AI response\n- Markdown: format and show the output\n- Annotation: document your workflow",
+          text: "Welcome to Flow State\n\nOverview — You have four node types:\n1) Prompt: Input data for your workflows\n2) AI: Process data using various AI models\n3) Markdown: Format and display outputs\n4) Annotation: Document and explain your workflows",
           loading: false,
         },
         position: {
@@ -88,7 +88,7 @@ export const templates: Workflow[] = [
       {
         id: "1751466885315-tpiiywm0o",
         data: {
-          text: "Try to run it!\n        👇",
+          text: "Run the workflow\n\nSelect a node and click Run to execute this workflow.",
           loading: false,
         },
         position: {
@@ -102,7 +102,7 @@ export const templates: Workflow[] = [
       {
         id: "1751466924291-57yp9uodp",
         data: {
-          text: 'Since everything runs locally you need to use your own api key 🔑. \n\nAdd yours, go to "API Keys" in the sidebar',
+          text: 'API keys\n\nBecause everything runs in your browser, you must provide your own API keys.\n\nOpen "API Keys" in the sidebar to configure your provider keys.',
           loading: false,
         },
         position: {
@@ -116,7 +116,7 @@ export const templates: Workflow[] = [
       {
         id: "1751485569040-mue9brevg",
         data: {
-          text: "Tips on controls: \n\n- Pan: Space + drag mouse, scroll, middle or right mouse\n- Zoom: Ctrl or ⌘ + scroll\n- Create selection: drag mouse\n- Multiselection: Shift or Ctrl or ⌘ + click\n- Delete selection: Backspace or Delete",
+          text: "Canvas controls\n\n- Pan: Space + drag, scroll wheel, or middle/right mouse button\n- Zoom: Ctrl or Cmd + scroll wheel\n- Select: Click and drag to create a selection box\n- Multi-select: Hold Shift, Ctrl, or Cmd while clicking\n- Delete: Select nodes and press Backspace or Delete",
           loading: false,
         },
         position: {
@@ -130,7 +130,7 @@ export const templates: Workflow[] = [
       {
         id: "-xd-FccYDkt1wWiFpAl97",
         data: {
-          text: "Link nodes together and the output will be passed to the next node when pressing the ▶️ button.",
+          text: "Connecting nodes\n\nDrag from a node's output (bottom) to another node's input (top).\n\nWhen you run the source node, its output is sent to the connected node.",
           loading: false,
         },
         position: {
@@ -167,7 +167,7 @@ export const templates: Workflow[] = [
   },
   {
     id: "So_ExWhUmz81nL-fAL1Xg",
-    name: "Simple proofread ✒️",
+    name: "Simple proofread",
     nodes: [
       {
         id: "1",
@@ -227,7 +227,7 @@ export const templates: Workflow[] = [
       {
         id: "1751467469616-c71g8nd6h",
         data: {
-          text: "A very simple example of reusable prompt to proofread a text for you",
+          text: "Text proofreading workflow\n\nThis example shows how to create a reusable proofreading workflow that fixes grammar and spelling and improves clarity.",
           loading: false,
         },
         position: {
@@ -241,7 +241,7 @@ export const templates: Workflow[] = [
       {
         id: "1751467508141-52xbc0ojt",
         data: {
-          text: "1. Enter the text here     👉",
+          text: "Step 1 — Input text\n\nEnter the text you want to proofread here.",
           loading: false,
         },
         position: {
@@ -255,7 +255,7 @@ export const templates: Workflow[] = [
       {
         id: "1751467526300-8adwrz1d8",
         data: {
-          text: "2. Run the workflow\n\n👇",
+          text: "Step 2 — Run the workflow\n\nClick Run to execute the proofreading step.",
           loading: false,
         },
         position: {
@@ -269,7 +269,7 @@ export const templates: Workflow[] = [
       {
         id: "1751467546814-h23l7543b",
         data: {
-          text: "3. Copy your proofreaded text\n\n👇",
+          text: "Step 3 — Copy the result\n\nCopy the proofread text from the output below.",
           loading: false,
         },
         position: {
@@ -302,7 +302,7 @@ export const templates: Workflow[] = [
   },
   {
     id: "1751384543676-ast6lj06g",
-    name: "Email response ✉️",
+    name: "Email response",
     nodes: [
       {
         id: "1",
@@ -381,7 +381,7 @@ export const templates: Workflow[] = [
       {
         id: "1751468710005-qz0vejij2",
         data: {
-          text: "Here is a workflow I often use to respond to emails quickly",
+          text: "Email response automation\n\nUse this workflow to generate professional email responses with a consistent tone and style.",
           loading: false,
         },
         position: {
@@ -395,7 +395,7 @@ export const templates: Workflow[] = [
       {
         id: "IlLW0i4-xdyWgqus7U20y",
         data: {
-          text: "Put your email you want to respond to here 👉",
+          text: "Input email\n\nPaste the email you want to respond to here.",
           loading: false,
         },
         position: {
@@ -409,7 +409,7 @@ export const templates: Workflow[] = [
       {
         id: "0IX9xq0oSVnYjQ6UcLpx7",
         data: {
-          text: "Overview of what you want to say\n👈",
+          text: "Response guidelines\n\nOutline the key points you want to include in your response.",
           loading: false,
         },
         position: {
@@ -457,7 +457,7 @@ export const templates: Workflow[] = [
       {
         id: "cIlDyq94IQ70tMycshzlM",
         data: {
-          text: "Few additional settings",
+          text: "Additional settings\n\nConfigure the writing tone and signature for your response.",
           loading: false,
         },
         position: {
@@ -471,7 +471,7 @@ export const templates: Workflow[] = [
       {
         id: "5XXwjqDgaJe7--Ip3AtJY",
         data: {
-          text: "Email is ready to be sent! 📩",
+          text: "Email ready\n\nYour professional email response is ready to send.",
           loading: false,
         },
         position: {
@@ -485,7 +485,7 @@ export const templates: Workflow[] = [
       {
         id: "i3GUyMdYMnKHl2c3uq6UN",
         data: {
-          text: "Copy it here\n👇",
+          text: "Copy response\n\nCopy your generated email response here.",
           loading: false,
         },
         position: {
@@ -536,7 +536,7 @@ export const templates: Workflow[] = [
   },
   {
     id: "gr3v83OOBu1eflT6Hgs7u",
-    name: "Meta prompting 🤯",
+    name: "Meta prompting",
     nodes: [
       {
         id: "1",
@@ -613,7 +613,7 @@ export const templates: Workflow[] = [
       {
         id: "1751466604412-h50o5dan1",
         data: {
-          text: "Example of creation of system prompt using the AI itself ",
+          text: "AI-powered prompt engineering\n\nThis workflow demonstrates how to use AI to create system prompts for other AI models.",
           loading: false,
         },
         position: {
@@ -627,7 +627,7 @@ export const templates: Workflow[] = [
       {
         id: "1751466668943-g24it80ee",
         data: {
-          text: "Remove this link if you don't want to give an example \n\n✂️ (select and press backspace)",
+          text: "Optional example\n\nRemove this example if you do not need it.\n(Select it and press Backspace)",
           loading: false,
         },
         position: {
@@ -641,7 +641,7 @@ export const templates: Workflow[] = [
       {
         id: "1751466827573-lf1cd1r94",
         data: {
-          text: "Now you just have to copy\n\n           👇",
+          text: "Copy your prompt\n\nYour custom system prompt is ready to use.",
           loading: false,
         },
         position: {
@@ -679,18 +679,18 @@ export const templates: Workflow[] = [
   },
   {
     id: "1751404486861-ypugrqbgy",
-    name: "Product marketing (advanced)",
+    name: "Product Marketing",
     nodes: [
       {
         id: "1",
         data: {
           prompt:
-            "[Dynbox](https://dynbox.app) is an AI-powered file organizer designed to help individuals and teams efficiently manage, search, and organize both cloud and (soon) local files through a conversational interface or automated background processes.\n\n### Key Features\n\n- **Chat-Based File Management:**  \n  You can interact with your files by chatting with the AI—ask it to move, rename, clean up, create new files, or even answer questions about file content. This makes managing digital clutter feel like having a personal assistant for your files.\n\n- **Automation:**  \n  Dynbox can automatically organize files in the background using customizable rules (Automated Folders). For example, you can set it to sort receipts, screenshots, or reports into the right folders as soon as they’re added, keeping your workspace tidy without manual effort.\n\n- **Semantic Search:**  \n  Find files based on their *meaning*, not just filenames. The AI uses advanced vector search to understand your queries, so you can locate documents by describing their content or purpose.\n\n- **User Control and Feedback:**  \n  The AI suggests organizational changes, but you always have the final say. You can approve, reject, or selectively apply changes. If the AI’s suggestions aren’t quite right, you can provide feedback, and it will learn and adjust to your preferences.\n\n- **Cloud Integration (and Local Support Coming Soon):**  \n  Dynbox currently works with major cloud storage platforms like Google Drive, Dropbox, and OneDrive. Support for local files and external hard drives is in development and a high priority for the team.\n\n- **Privacy-Focused:**  \n  Your files never leave your cloud storage. You can mark files or folders as sensitive, and Dynbox will only analyze metadata (not content) for those, ensuring privacy and security.\n\n- **Duplicate Detection:**  \n  Dynbox can detect duplicate files by comparing file hashes, helping you clean up redundant files.\n\n### Pricing\n\n- **Free:**  \n  Try out Dynbox with basic features.\n- **Pro:**  \n  $20/month, includes everything in Free plus advanced features for individuals or small teams.\n- **Enterprise:**  \n  Custom pricing for organizations needing advanced security and compliance options.\n\n### Typical Use Cases\n\n- Tidying up messy cloud drives or local folders\n- Quickly finding files by meaning or content\n- Automating routine file organization tasks\n- Cleaning up duplicate files\n- Managing screenshots, receipts, and other frequently added files\n\n### User Experience\n\nThe workflow is simple:  \n1. Connect your cloud storage (or soon, your local files).\n2. Chat with the AI to organize, search, or clean up.\n3. Review and approve suggested changes.\n4. Set up automated rules for ongoing organization.\n\nDynbox is designed to save hours of manual sorting and searching, making digital life more organized and less stressful",
+            "[Dynbox](https://dynbox.app) is an AI-powered file organizer designed to help individuals and teams efficiently manage, search, and organize both cloud and (soon) local files through a conversational interface or automated background processes.\n\n### Key Features\n\n- **Chat-Based File Management:**  \n  You can interact with your files by chatting with the AI—ask it to move, rename, clean up, create new files, or even answer questions about file content. This makes managing digital clutter feel like having a personal assistant for your files.\n\n- **Automation:**  \n  Dynbox can automatically organize files in the background using customizable rules (Automated Folders). For example, you can set it to sort receipts, screenshots, or reports into the right folders as soon as they're added, keeping your workspace tidy without manual effort.\n\n- **Semantic Search:**  \n  Find files based on their *meaning*, not just filenames. The AI uses advanced vector search to understand your queries, so you can locate documents by describing their content or purpose.\n\n- **User Control and Feedback:**  \n  The AI suggests organizational changes, but you always have the final say. You can approve, reject, or selectively apply changes. If the AI's suggestions aren't quite right, you can provide feedback, and it will learn and adjust to your preferences.\n\n- **Cloud Integration (and Local Support Coming Soon):**  \n  Dynbox currently works with major cloud storage platforms like Google Drive, Dropbox, and OneDrive. Support for local files and external hard drives is in development and a high priority for the team.\n\n- **Privacy-Focused:**  \n  Your files never leave your cloud storage. You can mark files or folders as sensitive, and Dynbox will only analyze metadata (not content) for those, ensuring privacy and security.\n\n- **Duplicate Detection:**  \n  Dynbox can detect duplicate files by comparing file hashes, helping you clean up redundant files.\n\n### Pricing\n\n- **Free:**  \n  Try out Dynbox with basic features.\n- **Pro:**  \n  $20/month, includes everything in Free plus advanced features for individuals or small teams.\n- **Enterprise:**  \n  Custom pricing for organizations needing advanced security and compliance options.\n\n### Typical Use Cases\n\n- Tidying up messy cloud drives or local folders\n- Quickly finding files by meaning or content\n- Automating routine file organization tasks\n- Cleaning up duplicate files\n- Managing screenshots, receipts, and other frequently added files\n\n### User Experience\n\nThe workflow is simple:  \n1. Connect your cloud storage (or soon, your local files).\n2. Chat with the AI to organize, search, or clean up.\n3. Review and approve suggested changes.\n4. Set up automated rules for ongoing organization.\n\nDynbox is designed to save hours of manual sorting and searching, making digital life more organized and less stressful",
           label: "Product description",
           dirty: false,
           loading: false,
           output:
-            "[Dynbox](https://dynbox.app) is an AI-powered file organizer designed to help individuals and teams efficiently manage, search, and organize both cloud and (soon) local files through a conversational interface or automated background processes.\n\n### Key Features\n\n- **Chat-Based File Management:**  \n  You can interact with your files by chatting with the AI—ask it to move, rename, clean up, create new files, or even answer questions about file content. This makes managing digital clutter feel like having a personal assistant for your files.\n\n- **Automation:**  \n  Dynbox can automatically organize files in the background using customizable rules (Automated Folders). For example, you can set it to sort receipts, screenshots, or reports into the right folders as soon as they’re added, keeping your workspace tidy without manual effort.\n\n- **Semantic Search:**  \n  Find files based on their *meaning*, not just filenames. The AI uses advanced vector search to understand your queries, so you can locate documents by describing their content or purpose.\n\n- **User Control and Feedback:**  \n  The AI suggests organizational changes, but you always have the final say. You can approve, reject, or selectively apply changes. If the AI’s suggestions aren’t quite right, you can provide feedback, and it will learn and adjust to your preferences.\n\n- **Cloud Integration (and Local Support Coming Soon):**  \n  Dynbox currently works with major cloud storage platforms like Google Drive, Dropbox, and OneDrive. Support for local files and external hard drives is in development and a high priority for the team.\n\n- **Privacy-Focused:**  \n  Your files never leave your cloud storage. You can mark files or folders as sensitive, and Dynbox will only analyze metadata (not content) for those, ensuring privacy and security.\n\n- **Duplicate Detection:**  \n  Dynbox can detect duplicate files by comparing file hashes, helping you clean up redundant files.\n\n### Pricing\n\n- **Free:**  \n  Try out Dynbox with basic features.\n- **Pro:**  \n  $20/month, includes everything in Free plus advanced features for individuals or small teams.\n- **Enterprise:**  \n  Custom pricing for organizations needing advanced security and compliance options.\n\n### Typical Use Cases\n\n- Tidying up messy cloud drives or local folders\n- Quickly finding files by meaning or content\n- Automating routine file organization tasks\n- Cleaning up duplicate files\n- Managing screenshots, receipts, and other frequently added files\n\n### User Experience\n\nThe workflow is simple:  \n1. Connect your cloud storage (or soon, your local files).\n2. Chat with the AI to organize, search, or clean up.\n3. Review and approve suggested changes.\n4. Set up automated rules for ongoing organization.\n\nDynbox is designed to save hours of manual sorting and searching, making digital life more organized and less stressful",
+            "[Dynbox](https://dynbox.app) is an AI-powered file organizer designed to help individuals and teams efficiently manage, search, and organize both cloud and (soon) local files through a conversational interface or automated background processes.\n\n### Key Features\n\n- **Chat-Based File Management:**  \n  You can interact with your files by chatting with the AI—ask it to move, rename, clean up, create new files, or even answer questions about file content. This makes managing digital clutter feel like having a personal assistant for your files.\n\n- **Automation:**  \n  Dynbox can automatically organize files in the background using customizable rules (Automated Folders). For example, you can set it to sort receipts, screenshots, or reports into the right folders as soon as they're added, keeping your workspace tidy without manual effort.\n\n- **Semantic Search:**  \n  Find files based on their *meaning*, not just filenames. The AI uses advanced vector search to understand your queries, so you can locate documents by describing their content or purpose.\n\n- **User Control and Feedback:**  \n  The AI suggests organizational changes, but you always have the final say. You can approve, reject, or selectively apply changes. If the AI's suggestions aren't quite right, you can provide feedback, and it will learn and adjust to your preferences.\n\n- **Cloud Integration (and Local Support Coming Soon):**  \n  Dynbox currently works with major cloud storage platforms like Google Drive, Dropbox, and OneDrive. Support for local files and external hard drives is in development and a high priority for the team.\n\n- **Privacy-Focused:**  \n  Your files never leave your cloud storage. You can mark files or folders as sensitive, and Dynbox will only analyze metadata (not content) for those, ensuring privacy and security.\n\n- **Duplicate Detection:**  \n  Dynbox can detect duplicate files by comparing file hashes, helping you clean up redundant files.\n\n### Pricing\n\n- **Free:**  \n  Try out Dynbox with basic features.\n- **Pro:**  \n  $20/month, includes everything in Free plus advanced features for individuals or small teams.\n- **Enterprise:**  \n  Custom pricing for organizations needing advanced security and compliance options.\n\n### Typical Use Cases\n\n- Tidying up messy cloud drives or local folders\n- Quickly finding files by meaning or content\n- Automating routine file organization tasks\n- Cleaning up duplicate files\n- Managing screenshots, receipts, and other frequently added files\n\n### User Experience\n\nThe workflow is simple:  \n1. Connect your cloud storage (or soon, your local files).\n2. Chat with the AI to organize, search, or clean up.\n3. Review and approve suggested changes.\n4. Set up automated rules for ongoing organization.\n\nDynbox is designed to save hours of manual sorting and searching, making digital life more organized and less stressful",
         },
         position: {
           x: -661.671903561125,
@@ -725,8 +725,150 @@ export const templates: Workflow[] = [
           loading: false,
           dirty: false,
           output:
-            '<product_description>\n[Dynbox](https://dynbox.app) is an AI-powered file organizer designed to help individuals and teams efficiently manage, search, and organize both cloud and (soon) local files through a conversational interface or automated background processes.\n\n### Key Features\n\n- **Chat-Based File Management:**  \n  You can interact with your files by chatting with the AI—ask it to move, rename, clean up, create new files, or even answer questions about file content. This makes managing digital clutter feel like having a personal assistant for your files.\n\n- **Automation:**  \n  Dynbox can automatically organize files in the background using customizable rules (Automated Folders). For example, you can set it to sort receipts, screenshots, or reports into the right folders as soon as they’re added, keeping your workspace tidy without manual effort.\n\n- **Semantic Search:**  \n  Find files based on their *meaning*, not just filenames. The AI uses advanced vector search to understand your queries, so you can locate documents by describing their content or purpose.\n\n- **User Control and Feedback:**  \n  The AI suggests organizational changes, but you always have the final say. You can approve, reject, or selectively apply changes. If the AI’s suggestions aren’t quite right, you can provide feedback, and it will learn and adjust to your preferences.\n\n- **Cloud Integration (and Local Support Coming Soon):**  \n  Dynbox currently works with major cloud storage platforms like Google Drive, Dropbox, and OneDrive. Support for local files and external hard drives is in development and a high priority for the team.\n\n- **Privacy-Focused:**  \n  Your files never leave your cloud storage. You can mark files or folders as sensitive, and Dynbox will only analyze metadata (not content) for those, ensuring privacy and security.\n\n- **Duplicate Detection:**  \n  Dynbox can detect duplicate files by comparing file hashes, helping you clean up redundant files.\n\n### Pricing\n\n- **Free:**  \n  Try out Dynbox with basic features.\n- **Pro:**  \n  $20/month, includes everything in Free plus advanced features for individuals or small teams.\n- **Enterprise:**  \n  Custom pricing for organizations needing advanced security and compliance options.\n\n### Typical Use Cases\n\n- Tidying up messy cloud drives or local folders\n- Quickly finding files by meaning or content\n- Automating routine file organization tasks\n- Cleaning up duplicate files\n- Managing screenshots, receipts, and other frequently added files\n\n### User Experience\n\nThe workflow is simple:  \n1. Connect your cloud storage (or soon, your local files).\n2. Chat with the AI to organize, search, or clean up.\n3. Review and approve suggested changes.\n4. Set up automated rules for ongoing organization.\n\nDynbox is designed to save hours of manual sorting and searching, making digital life more organized and less stressful\n</product_description>\n\n<problem_that_it_solves>\n## The Digital Filing Cabinet is Broken: Users Cry Out for an AI-Powered Revolution in File Management\n\nFor decades, the promise of the paperless office has been a tantalizing yet elusive dream. Instead, for many, it has morphed into a digital nightmare of scattered files, inconsistent naming conventions, and an overwhelming sense of disorganization. This digital chaos is a significant source of frustration and a major drain on productivity for individuals and businesses alike. However, a new wave of intelligent, AI-powered Software-as-a-Service (SaaS) solutions is poised to finally bring order to the chaos, and the demand for such tools is palpable.\n\nThe core of the problem lies in the manual and often tedious nature of file management. Users are bogged down by the constant need to name, categorize, and store their digital assets, a task that is both time-consuming and prone to human error. The result is a digital landscape where finding the right file at the right time feels like searching for a needle in a haystack.\n\n### The Anatomy of File Management Frustration\n\nThe most common and deeply felt frustrations with managing digital files can be distilled into several key areas:\n\n* **The Black Hole of "Downloads":** The default download folder is often a chaotic dumping ground for a myriad of files, from important documents to fleeting images, creating a digital morass that is difficult to navigate.\n* **The Naming Game Nobody Wins:** Inconsistent and non-descriptive file names are a primary culprit in the struggle for organization. "Document1.docx" and "Untitled_Final_V2.pdf" offer little clue as to their contents, leading to endless cycles of opening and closing files in a desperate search.\n* **Version Control Vertigo:** The proliferation of multiple versions of the same document ("Report_final," "Report_final_final," "Report_final_approved") is a recipe for confusion and costly mistakes. Without a clear system for tracking changes, users can easily find themselves working on outdated information.\n* **The Silo Effect:** Files are often scattered across a multitude of devices, cloud storage services, and email attachments. This fragmentation makes it nearly impossible to have a unified view of one\'s digital assets.\n* **The Search for the Holy Grail:** Native operating system search functionalities often fall short, struggling to find files based on their actual content and relying heavily on exact file names.\n* **The Burden of Manual Organization:** The sheer effort required to create and maintain a logical folder structure is a significant barrier for many. This often leads to a "file everything on the desktop" mentality, further exacerbating the problem.\n</problem_that_it_solves>',
-          text: '<product_description>\n[Dynbox](https://dynbox.app) is an AI-powered file organizer designed to help individuals and teams efficiently manage, search, and organize both cloud and (soon) local files through a conversational interface or automated background processes.\n\n### Key Features\n\n- **Chat-Based File Management:**  \n  You can interact with your files by chatting with the AI—ask it to move, rename, clean up, create new files, or even answer questions about file content. This makes managing digital clutter feel like having a personal assistant for your files.\n\n- **Automation:**  \n  Dynbox can automatically organize files in the background using customizable rules (Automated Folders). For example, you can set it to sort receipts, screenshots, or reports into the right folders as soon as they’re added, keeping your workspace tidy without manual effort.\n\n- **Semantic Search:**  \n  Find files based on their *meaning*, not just filenames. The AI uses advanced vector search to understand your queries, so you can locate documents by describing their content or purpose.\n\n- **User Control and Feedback:**  \n  The AI suggests organizational changes, but you always have the final say. You can approve, reject, or selectively apply changes. If the AI’s suggestions aren’t quite right, you can provide feedback, and it will learn and adjust to your preferences.\n\n- **Cloud Integration (and Local Support Coming Soon):**  \n  Dynbox currently works with major cloud storage platforms like Google Drive, Dropbox, and OneDrive. Support for local files and external hard drives is in development and a high priority for the team.\n\n- **Privacy-Focused:**  \n  Your files never leave your cloud storage. You can mark files or folders as sensitive, and Dynbox will only analyze metadata (not content) for those, ensuring privacy and security.\n\n- **Duplicate Detection:**  \n  Dynbox can detect duplicate files by comparing file hashes, helping you clean up redundant files.\n\n### Pricing\n\n- **Free:**  \n  Try out Dynbox with basic features.\n- **Pro:**  \n  $20/month, includes everything in Free plus advanced features for individuals or small teams.\n- **Enterprise:**  \n  Custom pricing for organizations needing advanced security and compliance options.\n\n### Typical Use Cases\n\n- Tidying up messy cloud drives or local folders\n- Quickly finding files by meaning or content\n- Automating routine file organization tasks\n- Cleaning up duplicate files\n- Managing screenshots, receipts, and other frequently added files\n\n### User Experience\n\nThe workflow is simple:  \n1. Connect your cloud storage (or soon, your local files).\n2. Chat with the AI to organize, search, or clean up.\n3. Review and approve suggested changes.\n4. Set up automated rules for ongoing organization.\n\nDynbox is designed to save hours of manual sorting and searching, making digital life more organized and less stressful\n</product_description>\n\n<problem_that_it_solves>\n## The Digital Filing Cabinet is Broken: Users Cry Out for an AI-Powered Revolution in File Management\n\nFor decades, the promise of the paperless office has been a tantalizing yet elusive dream. Instead, for many, it has morphed into a digital nightmare of scattered files, inconsistent naming conventions, and an overwhelming sense of disorganization. This digital chaos is a significant source of frustration and a major drain on productivity for individuals and businesses alike. However, a new wave of intelligent, AI-powered Software-as-a-Service (SaaS) solutions is poised to finally bring order to the chaos, and the demand for such tools is palpable.\n\nThe core of the problem lies in the manual and often tedious nature of file management. Users are bogged down by the constant need to name, categorize, and store their digital assets, a task that is both time-consuming and prone to human error. The result is a digital landscape where finding the right file at the right time feels like searching for a needle in a haystack.\n\n### The Anatomy of File Management Frustration\n\nThe most common and deeply felt frustrations with managing digital files can be distilled into several key areas:\n\n* **The Black Hole of "Downloads":** The default download folder is often a chaotic dumping ground for a myriad of files, from important documents to fleeting images, creating a digital morass that is difficult to navigate.\n* **The Naming Game Nobody Wins:** Inconsistent and non-descriptive file names are a primary culprit in the struggle for organization. "Document1.docx" and "Untitled_Final_V2.pdf" offer little clue as to their contents, leading to endless cycles of opening and closing files in a desperate search.\n* **Version Control Vertigo:** The proliferation of multiple versions of the same document ("Report_final," "Report_final_final," "Report_final_approved") is a recipe for confusion and costly mistakes. Without a clear system for tracking changes, users can easily find themselves working on outdated information.\n* **The Silo Effect:** Files are often scattered across a multitude of devices, cloud storage services, and email attachments. This fragmentation makes it nearly impossible to have a unified view of one\'s digital assets.\n* **The Search for the Holy Grail:** Native operating system search functionalities often fall short, struggling to find files based on their actual content and relying heavily on exact file names.\n* **The Burden of Manual Organization:** The sheer effort required to create and maintain a logical folder structure is a significant barrier for many. This often leads to a "file everything on the desktop" mentality, further exacerbating the problem.\n</problem_that_it_solves>',
+            `<product_description>
+[Dynbox](https://dynbox.app) is an AI-powered file organizer designed to help individuals and teams efficiently manage, search, and organize both cloud and (soon) local files through a conversational interface or automated background processes.
+
+### Key Features
+
+- **Chat-Based File Management:**  
+  You can interact with your files by chatting with the AI—ask it to move, rename, clean up, create new files, or even answer questions about file content. This makes managing digital clutter feel like having a personal assistant for your files.
+
+- **Automation:**  
+  Dynbox can automatically organize files in the background using customizable rules (Automated Folders). For example, you can set it to sort receipts, screenshots, or reports into the right folders as soon as they're added, keeping your workspace tidy without manual effort.
+
+- **Semantic Search:**  
+  Find files based on their *meaning*, not just filenames. The AI uses advanced vector search to understand your queries, so you can locate documents by describing their content or purpose.
+
+- **User Control and Feedback:**  
+  The AI suggests organizational changes, but you always have the final say. You can approve, reject, or selectively apply changes. If the AI's suggestions aren't quite right, you can provide feedback, and it will learn and adjust to your preferences.
+
+- **Cloud Integration (and Local Support Coming Soon):**  
+  Dynbox currently works with major cloud storage platforms like Google Drive, Dropbox, and OneDrive. Support for local files and external hard drives is in development and a high priority for the team.
+
+- **Privacy-Focused:**  
+  Your files never leave your cloud storage. You can mark files or folders as sensitive, and Dynbox will only analyze metadata (not content) for those, ensuring privacy and security.
+
+- **Duplicate Detection:**  
+  Dynbox can detect duplicate files by comparing file hashes, helping you clean up redundant files.
+
+### Pricing
+
+- **Free:**  
+  Try out Dynbox with basic features.
+- **Pro:**  
+  $20/month, includes everything in Free plus advanced features for individuals or small teams.
+- **Enterprise:**  
+  Custom pricing for organizations needing advanced security and compliance options.
+
+### Typical Use Cases
+
+- Tidying up messy cloud drives or local folders
+- Quickly finding files by meaning or content
+- Automating routine file organization tasks
+- Cleaning up duplicate files
+- Managing screenshots, receipts, and other frequently added files
+
+### User Experience
+
+The workflow is simple:  
+1. Connect your cloud storage (or soon, your local files).
+2. Chat with the AI to organize, search, or clean up.
+3. Review and approve suggested changes.
+4. Set up automated rules for ongoing organization.
+
+Dynbox is designed to save hours of manual sorting and searching, making digital life more organized and less stressful
+</product_description>
+
+<problem_that_it_solves>
+## The Digital Filing Cabinet is Broken: Users Cry Out for an AI-Powered Revolution in File Management
+
+For decades, the promise of the paperless office has been a tantalizing yet elusive dream. Instead, for many, it has morphed into a digital nightmare of scattered files, inconsistent naming conventions, and an overwhelming sense of disorganization. This digital chaos is a significant source of frustration and a major drain on productivity for individuals and businesses alike. However, a new wave of intelligent, AI-powered Software-as-a-Service (SaaS) solutions is poised to finally bring order to the chaos, and the demand for such tools is palpable.
+
+The core of the problem lies in the manual and often tedious nature of file management. Users are bogged down by the constant need to name, categorize, and store their digital assets, a task that is both time-consuming and prone to human error. The result is a digital landscape where finding the right file at the right time feels like searching for a needle in a haystack.
+
+### The Anatomy of File Management Frustration
+
+The most common and deeply felt frustrations with managing digital files can be distilled into several key areas:
+
+* **The Black Hole of "Downloads":** The default download folder is often a chaotic dumping ground for a myriad of files, from important documents to fleeting images, creating a digital morass that is difficult to navigate.
+* **The Naming Game Nobody Wins:** Inconsistent and non-descriptive file names are a primary culprit in the struggle for organization. "Document1.docx" and "Untitled_Final_V2.pdf" offer little clue as to their contents, leading to endless cycles of opening and closing files in a desperate search.
+* **Version Control Vertigo:** The proliferation of multiple versions of the same document ("Report_final," "Report_final_final," "Report_final_approved") is a recipe for confusion and costly mistakes. Without a clear system for tracking changes, users can easily find themselves working on outdated information.
+* **The Silo Effect:** Files are often scattered across a multitude of devices, cloud storage services, and email attachments. This fragmentation makes it nearly impossible to have a unified view of one's digital assets.
+* **The Search for the Holy Grail:** Native operating system search functionalities often fall short, struggling to find files based on their actual content and relying heavily on exact file names.
+* **The Burden of Manual Organization:** The sheer effort required to create and maintain a logical folder structure is a significant barrier for many. This often leads to a "file everything on the desktop" mentality, further exacerbating the problem.
+</problem_that_it_solves>`,
+          text: `<product_description>
+[Dynbox](https://dynbox.app) is an AI-powered file organizer designed to help individuals and teams efficiently manage, search, and organize both cloud and (soon) local files through a conversational interface or automated background processes.
+
+### Key Features
+
+- **Chat-Based File Management:**  
+  You can interact with your files by chatting with the AI—ask it to move, rename, clean up, create new files, or even answer questions about file content. This makes managing digital clutter feel like having a personal assistant for your files.
+
+- **Automation:**  
+  Dynbox can automatically organize files in the background using customizable rules (Automated Folders). For example, you can set it to sort receipts, screenshots, or reports into the right folders as soon as they're added, keeping your workspace tidy without manual effort.
+
+- **Semantic Search:**  
+  Find files based on their *meaning*, not just filenames. The AI uses advanced vector search to understand your queries, so you can locate documents by describing their content or purpose.
+
+- **User Control and Feedback:**  
+  The AI suggests organizational changes, but you always have the final say. You can approve, reject, or selectively apply changes. If the AI's suggestions aren't quite right, you can provide feedback, and it will learn and adjust to your preferences.
+
+- **Cloud Integration (and Local Support Coming Soon):**  
+  Dynbox currently works with major cloud storage platforms like Google Drive, Dropbox, and OneDrive. Support for local files and external hard drives is in development and a high priority for the team.
+
+- **Privacy-Focused:**  
+  Your files never leave your cloud storage. You can mark files or folders as sensitive, and Dynbox will only analyze metadata (not content) for those, ensuring privacy and security.
+
+- **Duplicate Detection:**  
+  Dynbox can detect duplicate files by comparing file hashes, helping you clean up redundant files.
+
+### Pricing
+
+- **Free:**  
+  Try out Dynbox with basic features.
+- **Pro:**  
+  $20/month, includes everything in Free plus advanced features for individuals or small teams.
+- **Enterprise:**  
+  Custom pricing for organizations needing advanced security and compliance options.
+
+### Typical Use Cases
+
+- Tidying up messy cloud drives or local folders
+- Quickly finding files by meaning or content
+- Automating routine file organization tasks
+- Cleaning up duplicate files
+- Managing screenshots, receipts, and other frequently added files
+
+### User Experience
+
+The workflow is simple:  
+1. Connect your cloud storage (or soon, your local files).
+2. Chat with the AI to organize, search, or clean up.
+3. Review and approve suggested changes.
+4. Set up automated rules for ongoing organization.
+
+Dynbox is designed to save hours of manual sorting and searching, making digital life more organized and less stressful
+</product_description>
+
+<problem_that_it_solves>
+## The Digital Filing Cabinet is Broken: Users Cry Out for an AI-Powered Revolution in File Management
+
+For decades, the promise of the paperless office has been a tantalizing yet elusive dream. Instead, for many, it has morphed into a digital nightmare of scattered files, inconsistent naming conventions, and an overwhelming sense of disorganization. This digital chaos is a significant source of frustration and a major drain on productivity for individuals and businesses alike. However, a new wave of intelligent, AI-powered Software-as-a-Service (SaaS) solutions is poised to finally bring order to the chaos, and the demand for such tools is palpable.
+
+The core of the problem lies in the manual and often tedious nature of file management. Users are bogged down by the constant need to name, categorize, and store their digital assets, a task that is both time-consuming and prone to human error. The result is a digital landscape where finding the right file at the right time feels like searching for a needle in a haystack.
+
+### The Anatomy of File Management Frustration
+
+The most common and deeply felt frustrations with managing digital files can be distilled into several key areas:
+
+* **The Black Hole of "Downloads":** The default download folder is often a chaotic dumping ground for a myriad of files, from important documents to fleeting images, creating a digital morass that is difficult to navigate.
+* **The Naming Game Nobody Wins:** Inconsistent and non-descriptive file names are a primary culprit in the struggle for organization. "Document1.docx" and "Untitled_Final_V2.pdf" offer little clue as to their contents, leading to endless cycles of opening and closing files in a desperate search.
+* **Version Control Vertigo:** The proliferation of multiple versions of the same document ("Report_final," "Report_final_final," "Report_final_approved") is a recipe for confusion and costly mistakes. Without a clear system for tracking changes, users can easily find themselves working on outdated information.
+* **The Silo Effect:** Files are often scattered across a multitude of devices, cloud storage services, and email attachments. This fragmentation makes it nearly impossible to have a unified view of one's digital assets.
+* **The Search for the Holy Grail:** Native operating system search functionalities often fall short, struggling to find files based on their actual content and relying heavily on exact file names.
+* **The Burden of Manual Organization:** The sheer effort required to create and maintain a logical folder structure is a significant barrier for many. This often leads to a "file everything on the desktop" mentality, further exacerbating the problem.
+</problem_that_it_solves>`,
         },
         position: {
           x: -559.4787917263668,
@@ -740,12 +882,42 @@ export const templates: Workflow[] = [
         id: "1751404698715-neehk4dvb",
         data: {
           prompt:
-            '## The Digital Filing Cabinet is Broken: Users Cry Out for an AI-Powered Revolution in File Management\n\nFor decades, the promise of the paperless office has been a tantalizing yet elusive dream. Instead, for many, it has morphed into a digital nightmare of scattered files, inconsistent naming conventions, and an overwhelming sense of disorganization. This digital chaos is a significant source of frustration and a major drain on productivity for individuals and businesses alike. However, a new wave of intelligent, AI-powered Software-as-a-Service (SaaS) solutions is poised to finally bring order to the chaos, and the demand for such tools is palpable.\n\nThe core of the problem lies in the manual and often tedious nature of file management. Users are bogged down by the constant need to name, categorize, and store their digital assets, a task that is both time-consuming and prone to human error. The result is a digital landscape where finding the right file at the right time feels like searching for a needle in a haystack.\n\n### The Anatomy of File Management Frustration\n\nThe most common and deeply felt frustrations with managing digital files can be distilled into several key areas:\n\n* **The Black Hole of "Downloads":** The default download folder is often a chaotic dumping ground for a myriad of files, from important documents to fleeting images, creating a digital morass that is difficult to navigate.\n* **The Naming Game Nobody Wins:** Inconsistent and non-descriptive file names are a primary culprit in the struggle for organization. "Document1.docx" and "Untitled_Final_V2.pdf" offer little clue as to their contents, leading to endless cycles of opening and closing files in a desperate search.\n* **Version Control Vertigo:** The proliferation of multiple versions of the same document ("Report_final," "Report_final_final," "Report_final_approved") is a recipe for confusion and costly mistakes. Without a clear system for tracking changes, users can easily find themselves working on outdated information.\n* **The Silo Effect:** Files are often scattered across a multitude of devices, cloud storage services, and email attachments. This fragmentation makes it nearly impossible to have a unified view of one\'s digital assets.\n* **The Search for the Holy Grail:** Native operating system search functionalities often fall short, struggling to find files based on their actual content and relying heavily on exact file names.\n* **The Burden of Manual Organization:** The sheer effort required to create and maintain a logical folder structure is a significant barrier for many. This often leads to a "file everything on the desktop" mentality, further exacerbating the problem.',
+            `## The Digital Filing Cabinet is Broken: Users Cry Out for an AI-Powered Revolution in File Management
+
+For decades, the promise of the paperless office has been a tantalizing yet elusive dream. Instead, for many, it has morphed into a digital nightmare of scattered files, inconsistent naming conventions, and an overwhelming sense of disorganization. This digital chaos is a significant source of frustration and a major drain on productivity for individuals and businesses alike. However, a new wave of intelligent, AI-powered Software-as-a-Service (SaaS) solutions is poised to finally bring order to the chaos, and the demand for such tools is palpable.
+
+The core of the problem lies in the manual and often tedious nature of file management. Users are bogged down by the constant need to name, categorize, and store their digital assets, a task that is both time-consuming and prone to human error. The result is a digital landscape where finding the right file at the right time feels like searching for a needle in a haystack.
+
+### The Anatomy of File Management Frustration
+
+The most common and deeply felt frustrations with managing digital files can be distilled into several key areas:
+
+* **The Black Hole of "Downloads":** The default download folder is often a chaotic dumping ground for a myriad of files, from important documents to fleeting images, creating a digital morass that is difficult to navigate.
+* **The Naming Game Nobody Wins:** Inconsistent and non-descriptive file names are a primary culprit in the struggle for organization. "Document1.docx" and "Untitled_Final_V2.pdf" offer little clue as to their contents, leading to endless cycles of opening and closing files in a desperate search.
+* **Version Control Vertigo:** The proliferation of multiple versions of the same document ("Report_final," "Report_final_final," "Report_final_approved") is a recipe for confusion and costly mistakes. Without a clear system for tracking changes, users can easily find themselves working on outdated information.
+* **The Silo Effect:** Files are often scattered across a multitude of devices, cloud storage services, and email attachments. This fragmentation makes it nearly impossible to have a unified view of one's digital assets.
+* **The Search for the Holy Grail:** Native operating system search functionalities often fall short, struggling to find files based on their actual content and relying heavily on exact file names.
+* **The Burden of Manual Organization:** The sheer effort required to create and maintain a logical folder structure is a significant barrier for many. This often leads to a "file everything on the desktop" mentality, further exacerbating the problem.`,
           label: "Problem that it solves",
           dirty: false,
           loading: false,
           output:
-            '## The Digital Filing Cabinet is Broken: Users Cry Out for an AI-Powered Revolution in File Management\n\nFor decades, the promise of the paperless office has been a tantalizing yet elusive dream. Instead, for many, it has morphed into a digital nightmare of scattered files, inconsistent naming conventions, and an overwhelming sense of disorganization. This digital chaos is a significant source of frustration and a major drain on productivity for individuals and businesses alike. However, a new wave of intelligent, AI-powered Software-as-a-Service (SaaS) solutions is poised to finally bring order to the chaos, and the demand for such tools is palpable.\n\nThe core of the problem lies in the manual and often tedious nature of file management. Users are bogged down by the constant need to name, categorize, and store their digital assets, a task that is both time-consuming and prone to human error. The result is a digital landscape where finding the right file at the right time feels like searching for a needle in a haystack.\n\n### The Anatomy of File Management Frustration\n\nThe most common and deeply felt frustrations with managing digital files can be distilled into several key areas:\n\n* **The Black Hole of "Downloads":** The default download folder is often a chaotic dumping ground for a myriad of files, from important documents to fleeting images, creating a digital morass that is difficult to navigate.\n* **The Naming Game Nobody Wins:** Inconsistent and non-descriptive file names are a primary culprit in the struggle for organization. "Document1.docx" and "Untitled_Final_V2.pdf" offer little clue as to their contents, leading to endless cycles of opening and closing files in a desperate search.\n* **Version Control Vertigo:** The proliferation of multiple versions of the same document ("Report_final," "Report_final_final," "Report_final_approved") is a recipe for confusion and costly mistakes. Without a clear system for tracking changes, users can easily find themselves working on outdated information.\n* **The Silo Effect:** Files are often scattered across a multitude of devices, cloud storage services, and email attachments. This fragmentation makes it nearly impossible to have a unified view of one\'s digital assets.\n* **The Search for the Holy Grail:** Native operating system search functionalities often fall short, struggling to find files based on their actual content and relying heavily on exact file names.\n* **The Burden of Manual Organization:** The sheer effort required to create and maintain a logical folder structure is a significant barrier for many. This often leads to a "file everything on the desktop" mentality, further exacerbating the problem.',
+            `## The Digital Filing Cabinet is Broken: Users Cry Out for an AI-Powered Revolution in File Management
+
+For decades, the promise of the paperless office has been a tantalizing yet elusive dream. Instead, for many, it has morphed into a digital nightmare of scattered files, inconsistent naming conventions, and an overwhelming sense of disorganization. This digital chaos is a significant source of frustration and a major drain on productivity for individuals and businesses alike. However, a new wave of intelligent, AI-powered Software-as-a-Service (SaaS) solutions is poised to finally bring order to the chaos, and the demand for such tools is palpable.
+
+The core of the problem lies in the manual and often tedious nature of file management. Users are bogged down by the constant need to name, categorize, and store their digital assets, a task that is both time-consuming and prone to human error. The result is a digital landscape where finding the right file at the right time feels like searching for a needle in a haystack.
+
+### The Anatomy of File Management Frustration
+
+The most common and deeply felt frustrations with managing digital files can be distilled into several key areas:
+
+* **The Black Hole of "Downloads":** The default download folder is often a chaotic dumping ground for a myriad of files, from important documents to fleeting images, creating a digital morass that is difficult to navigate.
+* **The Naming Game Nobody Wins:** Inconsistent and non-descriptive file names are a primary culprit in the struggle for organization. "Document1.docx" and "Untitled_Final_V2.pdf" offer little clue as to their contents, leading to endless cycles of opening and closing files in a desperate search.
+* **Version Control Vertigo:** The proliferation of multiple versions of the same document ("Report_final," "Report_final_final," "Report_final_approved") is a recipe for confusion and costly mistakes. Without a clear system for tracking changes, users can easily find themselves working on outdated information.
+* **The Silo Effect:** Files are often scattered across a multitude of devices, cloud storage services, and email attachments. This fragmentation makes it nearly impossible to have a unified view of one's digital assets.
+* **The Search for the Holy Grail:** Native operating system search functionalities often fall short, struggling to find files based on their actual content and relying heavily on exact file names.
+* **The Burden of Manual Organization:** The sheer effort required to create and maintain a logical folder structure is a significant barrier for many. This often leads to a "file everything on the desktop" mentality, further exacerbating the problem.`,
         },
         position: {
           x: -120.18622605169872,
@@ -776,12 +948,12 @@ export const templates: Workflow[] = [
         id: "1751464788964-th4eribuu",
         data: {
           systemPrompt:
-            '<system_role>\nYou are an expert social media manager specializing in LinkedIn content creation. Your task is to transform raw product descriptions into highly engaging and audience-specific LinkedIn posts designed for maximum visibility and impact.\n</system_role>\n\n<goal_of_the_ai>\nGenerate a professional and compelling LinkedIn post based on a provided product description, product name, and product link. The post must be tailored to the target audience to maximize engagement and visibility.\n</goal_of_the_ai>\n\n<constraints>\n-   **Output ONLY the LinkedIn post.** Do not include any conversational text, explanations, or additional commentary.\n-   The post MUST include the provided `product_name`.\n-   The post MUST include the provided `product_link`.\n-   The post should be concise and impactful, suitable for LinkedIn\'s professional environment.\n-   Use relevant hashtags to increase discoverability.\n-   Focus on benefits and solutions for the target audience, not just features.\n</constraints>\n\n<output_format>\nStart with "# Linkedin"\nThen the output should be plain text, formatted as a LinkedIn post. It should include:\n1.  An engaging hook.\n2.  A concise description of the product\'s value proposition and benefits.\n3.  A clear call to action.\n4.  Relevant and strategic hashtags.\n5.  The `product_link` at the end or within the call to action.\n</output_format>\n\n<tone_of_voice>\nProfessional, informative, engaging, benefit-oriented, and slightly enthusiastic.\n</tone_of_voice>\n\n<best_practices>\n-   **Audience Focus:** Analyze the product description to identify the primary target audience and tailor the language, benefits, and call to action specifically for them.\n-   **Hook:** Start with a question, a bold statement, or a compelling statistic to grab attention.\n-   **Problem/Solution:** Frame the product as a solution to a common problem faced by the target audience.\n-   **Value Proposition:** Clearly articulate the unique value and key benefits the product offers.\n-   **Call to Action (CTA):** Guide the reader on the next step (e.g., "Learn more," "Discover how," "Get started today").\n-   **Hashtags:** Use a mix of broad and niche hashtags relevant to the industry, product, and target audience. Aim for 3-5 relevant hashtags.\n-   **Conciseness:** LinkedIn posts perform well when they are direct and to the point, while still providing enough information to pique interest.\n</best_practices>\n\n<input_format>\nThe input will be provided in the following structure:\n\n```\n<product_description>\n[Product description text]\n</product_description>\n\n<product_name>\n[Product name]\n</product_name>\n\n<product_link>\n[Product URL]\n</product_link>\n```\n</input_format>\n\n<example_input>\n<product_description>\nOur new AI-powered content creation tool, "ContentGenius," helps marketing teams generate high-quality blog posts, social media updates, and email copy in minutes. It uses advanced natural language processing to understand your brand voice and audience, ensuring consistent and engaging content without the usual time commitment. Say goodbye to writer\'s block and hello to scalable content production.\n</product_description>\n\n<product_name>\nContentGenius\n</product_name>\n\n<product_link>\nhttps://www.contentgenius.com/launch\n</product_link>\n</example_input>\n\n<example_output>\nTired of endless content creation cycles and writer\'s block? 😩\n\nImagine generating high-quality blog posts, social media updates, and email copy in minutes, all while maintaining your unique brand voice. With **ContentGenius**, marketing teams can finally scale their content production effortlessly.\n\nOur AI-powered tool leverages advanced NLP to understand your audience and deliver consistent, engaging content, freeing up your team to focus on strategy and creativity. Stop wasting hours on drafts and start publishing impactful content faster than ever before.\n\nDiscover how ContentGenius can revolutionize your content strategy today!\n👉 Learn more: https://www.contentgenius.com/launch\n\n#ContentMarketing #AItools #MarketingAutomation #ContentCreation #DigitalMarketing\n</example_output>',
+            '<system_role>\nYou are an expert social media manager specializing in LinkedIn content creation. Your task is to transform raw product descriptions into highly engaging and audience-specific LinkedIn posts designed for maximum visibility and impact.\n</system_role>\n\n<goal_of_the_ai>\nGenerate a professional and compelling LinkedIn post based on a provided product description, product name, and product link. The post must be tailored to the target audience to maximize engagement and visibility.\n</goal_of_the_ai>\n\n<constraints>\n-   **Output ONLY the LinkedIn post.** Do not include any conversational text, explanations, or additional commentary.\n-   The post MUST include the provided `product_name`.\n-   The post MUST include the provided `product_link`.\n-   The post should be concise and impactful, suitable for LinkedIn\'s professional environment.\n-   Use relevant hashtags to increase discoverability.\n-   Focus on benefits and solutions for the target audience, not just features.\n</constraints>\n\n<output_format>\nStart with "# Linkedin"\nThen the output should be plain text, formatted as a LinkedIn post. It should include:\n1.  An engaging hook.\n2.  A concise description of the product\'s value proposition and benefits.\n3.  A clear call to action.\n4.  Relevant and strategic hashtags.\n5.  The `product_link` at the end or within the call to action.\n</output_format>\n\n<tone_of_voice>\nProfessional, informative, engaging, benefit-oriented, and slightly enthusiastic.\n</tone_of_voice>\n\n<best_practices>\n-   **Audience Focus:** Analyze the product description to identify the primary target audience and tailor the language, benefits, and call to action specifically for them.\n-   **Hook:** Start with a question, a bold statement, or a compelling statistic to grab attention.\n-   **Problem/Solution:** Frame the product as a solution to a common problem faced by the target audience.\n-   **Value Proposition:** Clearly articulate the unique value and key benefits the product offers.\n-   **Call to Action (CTA):** Guide the reader on the next step (e.g., "Learn more," "Discover how," "Get started today").\n-   **Hashtags:** Use a mix of broad and niche hashtags relevant to the industry, product, and target audience. Aim for 3-5 relevant hashtags.\n-   **Conciseness:** LinkedIn posts perform well when they are direct and to the point, while still providing enough information to pique interest.\n</best_practices>\n\n<input_format>\nThe input will be provided in the following structure:\n\n```\n<product_description>\n[Product description text]\n</product_description>\n\n<product_name>\n[Product name]\n</product_name>\n\n<product_link>\n[Product URL]\n</product_link>\n```\n</input_format>\n\n<example_input>\n<product_description>\nOur new AI-powered content creation tool, "ContentGenius," helps marketing teams generate high-quality blog posts, social media updates, and email copy in minutes. It uses advanced natural language processing to understand your brand voice and audience, ensuring consistent and engaging content without the usual time commitment. Say goodbye to writer\'s block and hello to scalable content production.\n</product_description>\n\n<product_name>\nContentGenius\n</product_name>\n\n<product_link>\nhttps://www.contentgenius.com/launch\n</product_link>\n</example_input>\n\n<example_output>\nTired of endless content creation cycles and writer\'s block? \n\nImagine generating high-quality blog posts, social media updates, and email copy in minutes, all while maintaining your unique brand voice. With **ContentGenius**, marketing teams can finally scale their content production effortlessly.\n\nOur AI-powered tool leverages advanced NLP to understand your audience and deliver consistent, engaging content, freeing up your team to focus on strategy and creativity. Stop wasting hours on drafts and start publishing impactful content faster than ever before.\n\nDiscover how ContentGenius can revolutionize your content strategy today!\n Learn more: https://www.contentgenius.com/launch\n\n#ContentMarketing #AItools #MarketingAutomation #ContentCreation #DigitalMarketing\n</example_output>',
           dirty: false,
           modelId: "gemini-2.5-flash",
           loading: false,
           output:
-            '# Linkedin\nTired of your digital files feeling like a black hole of unorganized documents? 😩 The endless search for "that one file" ends now.\n\nIntroducing **Dynbox**, the AI-powered file organizer designed to bring order to your digital chaos. Imagine having a personal AI assistant that not only manages your cloud files (Google Drive, Dropbox, OneDrive) but also learns your preferences.\n\nWith Dynbox, you can:\n*   **Chat to Organize:** Simply tell the AI to move, rename, or clean up files.\n*   **Automate Everything:** Set up smart rules to automatically sort new files into the right folders.\n*   **Find by Meaning:** Our semantic search lets you locate documents by describing their content, not just their filename.\n*   **Stay Private:** Your files never leave your cloud storage, ensuring maximum privacy.\n\nStop wasting hours on manual sorting and version control vertigo. Reclaim your productivity and transform your digital life.\n\nReady to experience effortless file management?\nDiscover Dynbox today: https://dynbox.app\n\n#FileManagement #AItools #Productivity #DigitalOrganization #CloudStorage #SaaS',
+            '# Linkedin\nTired of your digital files feeling like a black hole of unorganized documents? The endless search for "that one file" ends now.\n\nIntroducing **Dynbox**, the AI-powered file organizer designed to bring order to your digital chaos. Imagine having a personal AI assistant that not only manages your cloud files (Google Drive, Dropbox, OneDrive) but also learns your preferences.\n\nWith Dynbox, you can:\n*   **Chat to Organize:** Simply tell the AI to move, rename, or clean up files.\n*   **Automate Everything:** Set up smart rules to automatically sort new files into the right folders.\n*   **Find by Meaning:** Our semantic search lets you locate documents by describing their content, not just their filename.\n*   **Stay Private:** Your files never leave your cloud storage, ensuring maximum privacy.\n\nStop wasting hours on manual sorting and version control vertigo. Reclaim your productivity and transform your digital life.\n\nReady to experience effortless file management?\nDiscover Dynbox today: https://dynbox.app\n\n#FileManagement #AItools #Productivity #DigitalOrganization #CloudStorage #SaaS',
         },
         position: {
           x: -1140.7894108283679,
@@ -797,8 +969,8 @@ export const templates: Workflow[] = [
           dirty: false,
           loading: false,
           output:
-            '# Linkedin\nTired of your digital files feeling like a black hole of unorganized documents? 😩 The endless search for "that one file" ends now.\n\nIntroducing **Dynbox**, the AI-powered file organizer designed to bring order to your digital chaos. Imagine having a personal AI assistant that not only manages your cloud files (Google Drive, Dropbox, OneDrive) but also learns your preferences.\n\nWith Dynbox, you can:\n*   **Chat to Organize:** Simply tell the AI to move, rename, or clean up files.\n*   **Automate Everything:** Set up smart rules to automatically sort new files into the right folders.\n*   **Find by Meaning:** Our semantic search lets you locate documents by describing their content, not just their filename.\n*   **Stay Private:** Your files never leave your cloud storage, ensuring maximum privacy.\n\nStop wasting hours on manual sorting and version control vertigo. Reclaim your productivity and transform your digital life.\n\nReady to experience effortless file management?\nDiscover Dynbox today: https://dynbox.app\n\n#FileManagement #AItools #Productivity #DigitalOrganization #CloudStorage #SaaS',
-          text: '# Linkedin\nTired of your digital files feeling like a black hole of unorganized documents? 😩 The endless search for "that one file" ends now.\n\nIntroducing **Dynbox**, the AI-powered file organizer designed to bring order to your digital chaos. Imagine having a personal AI assistant that not only manages your cloud files (Google Drive, Dropbox, OneDrive) but also learns your preferences.\n\nWith Dynbox, you can:\n*   **Chat to Organize:** Simply tell the AI to move, rename, or clean up files.\n*   **Automate Everything:** Set up smart rules to automatically sort new files into the right folders.\n*   **Find by Meaning:** Our semantic search lets you locate documents by describing their content, not just their filename.\n*   **Stay Private:** Your files never leave your cloud storage, ensuring maximum privacy.\n\nStop wasting hours on manual sorting and version control vertigo. Reclaim your productivity and transform your digital life.\n\nReady to experience effortless file management?\nDiscover Dynbox today: https://dynbox.app\n\n#FileManagement #AItools #Productivity #DigitalOrganization #CloudStorage #SaaS',
+            '# Linkedin\nTired of your digital files feeling like a black hole of unorganized documents? The endless search for "that one file" ends now.\n\nIntroducing **Dynbox**, the AI-powered file organizer designed to bring order to your digital chaos. Imagine having a personal AI assistant that not only manages your cloud files (Google Drive, Dropbox, OneDrive) but also learns your preferences.\n\nWith Dynbox, you can:\n*   **Chat to Organize:** Simply tell the AI to move, rename, or clean up files.\n*   **Automate Everything:** Set up smart rules to automatically sort new files into the right folders.\n*   **Find by Meaning:** Our semantic search lets you locate documents by describing their content, not just their filename.\n*   **Stay Private:** Your files never leave your cloud storage, ensuring maximum privacy.\n\nStop wasting hours on manual sorting and version control vertigo. Reclaim your productivity and transform your digital life.\n\nReady to experience effortless file management?\nDiscover Dynbox today: https://dynbox.app\n\n#FileManagement #AItools #Productivity #DigitalOrganization #CloudStorage #SaaS',
+          text: '# Linkedin\nTired of your digital files feeling like a black hole of unorganized documents? The endless search for "that one file" ends now.\n\nIntroducing **Dynbox**, the AI-powered file organizer designed to bring order to your digital chaos. Imagine having a personal AI assistant that not only manages your cloud files (Google Drive, Dropbox, OneDrive) but also learns your preferences.\n\nWith Dynbox, you can:\n*   **Chat to Organize:** Simply tell the AI to move, rename, or clean up files.\n*   **Automate Everything:** Set up smart rules to automatically sort new files into the right folders.\n*   **Find by Meaning:** Our semantic search lets you locate documents by describing their content, not just their filename.\n*   **Stay Private:** Your files never leave your cloud storage, ensuring maximum privacy.\n\nStop wasting hours on manual sorting and version control vertigo. Reclaim your productivity and transform your digital life.\n\nReady to experience effortless file management?\nDiscover Dynbox today: https://dynbox.app\n\n#FileManagement #AItools #Productivity #DigitalOrganization #CloudStorage #SaaS',
         },
         position: {
           x: -1130.0871699130762,
@@ -817,7 +989,7 @@ export const templates: Workflow[] = [
           dirty: false,
           modelId: "gemini-2.5-flash",
           output:
-            '# Facebook\nTired of your digital files feeling like a chaotic black hole? 😩 Is your "Downloads" folder a disaster zone? 🤯\n\nSay goodbye to endless searching and manual sorting! Meet **Dynbox** – your AI-powered file organizing assistant that brings order to your digital life.\n\n✨ Chat with your files like a personal assistant, automate tedious organization, and find anything by *meaning* with intelligent semantic search. Reclaim hours of your day and enjoy a stress-free workspace! Your privacy is always protected too. 🔒\n\nReady to transform your digital clutter into calm?\nLearn more and try Dynbox for FREE today! 👇\nhttps://dynbox.app\n\n#FileManagement #DigitalOrganization #Productivity #AItools #WorkSmart',
+            '# Facebook\nTired of your digital files feeling like a chaotic black hole? Is your "Downloads" folder a disaster zone?\n\nSay goodbye to endless searching and manual sorting! Meet **Dynbox** – your AI-powered file organizing assistant that brings order to your digital life.\n\nChat with your files like a personal assistant, automate tedious organization, and find anything by *meaning* with intelligent semantic search. Reclaim hours of your day and enjoy a stress-free workspace! Your privacy is always protected too.\n\nReady to transform your digital clutter into calm?\nLearn more and try Dynbox for FREE today!\nhttps://dynbox.app\n\n#FileManagement #DigitalOrganization #Productivity #AItools #WorkSmart',
         },
         position: {
           x: 313.99999999999943,
@@ -833,8 +1005,8 @@ export const templates: Workflow[] = [
           loading: false,
           dirty: false,
           output:
-            '# Facebook\nTired of your digital files feeling like a chaotic black hole? 😩 Is your "Downloads" folder a disaster zone? 🤯\n\nSay goodbye to endless searching and manual sorting! Meet **Dynbox** – your AI-powered file organizing assistant that brings order to your digital life.\n\n✨ Chat with your files like a personal assistant, automate tedious organization, and find anything by *meaning* with intelligent semantic search. Reclaim hours of your day and enjoy a stress-free workspace! Your privacy is always protected too. 🔒\n\nReady to transform your digital clutter into calm?\nLearn more and try Dynbox for FREE today! 👇\nhttps://dynbox.app\n\n#FileManagement #DigitalOrganization #Productivity #AItools #WorkSmart',
-          text: '# Facebook\nTired of your digital files feeling like a chaotic black hole? 😩 Is your "Downloads" folder a disaster zone? 🤯\n\nSay goodbye to endless searching and manual sorting! Meet **Dynbox** – your AI-powered file organizing assistant that brings order to your digital life.\n\n✨ Chat with your files like a personal assistant, automate tedious organization, and find anything by *meaning* with intelligent semantic search. Reclaim hours of your day and enjoy a stress-free workspace! Your privacy is always protected too. 🔒\n\nReady to transform your digital clutter into calm?\nLearn more and try Dynbox for FREE today! 👇\nhttps://dynbox.app\n\n#FileManagement #DigitalOrganization #Productivity #AItools #WorkSmart',
+            '# Facebook\nTired of your digital files feeling like a chaotic black hole? Is your "Downloads" folder a disaster zone?\n\nSay goodbye to endless searching and manual sorting! Meet **Dynbox** – your AI-powered file organizing assistant that brings order to your digital life.\n\nChat with your files like a personal assistant, automate tedious organization, and find anything by *meaning* with intelligent semantic search. Reclaim hours of your day and enjoy a stress-free workspace! Your privacy is always protected too.\n\nReady to transform your digital clutter into calm?\nLearn more and try Dynbox for FREE today!\nhttps://dynbox.app\n\n#FileManagement #DigitalOrganization #Productivity #AItools #WorkSmart',
+          text: '# Facebook\nTired of your digital files feeling like a chaotic black hole? Is your "Downloads" folder a disaster zone?\n\nSay goodbye to endless searching and manual sorting! Meet **Dynbox** – your AI-powered file organizing assistant that brings order to your digital life.\n\nChat with your files like a personal assistant, automate tedious organization, and find anything by *meaning* with intelligent semantic search. Reclaim hours of your day and enjoy a stress-free workspace! Your privacy is always protected too.\n\nReady to transform your digital clutter into calm?\nLearn more and try Dynbox for FREE today!\nhttps://dynbox.app\n\n#FileManagement #DigitalOrganization #Productivity #AItools #WorkSmart',
         },
         position: {
           x: 325.9999999999994,
@@ -847,7 +1019,7 @@ export const templates: Workflow[] = [
       {
         id: "1751467321856-kcvl3qqn0",
         data: {
-          text: "Here is a more advanced example of usage to generate social media posts for your product.",
+          text: "Multi-platform social media marketing\n\nAdvanced workflow for generating platform-specific social media content from a single product description.",
           loading: false,
         },
         position: {
@@ -861,7 +1033,7 @@ export const templates: Workflow[] = [
       {
         id: "1751467363387-ymbgwtvmc",
         data: {
-          text: "Combining two prompt input    👉\nAnd displaying it",
+          text: "Multi-input processing\n\nCombine product description and problem statement for comprehensive content generation.",
           loading: false,
         },
         position: {
@@ -875,7 +1047,7 @@ export const templates: Workflow[] = [
       {
         id: "1751467405872-saphetfcu",
         data: {
-          text: "One custom system prompt per social media",
+          text: "Platform-specific optimization\n\nEach social media platform uses a customized system prompt for optimal engagement.",
           loading: false,
         },
         position: {
@@ -889,7 +1061,7 @@ export const templates: Workflow[] = [
       {
         id: "1751469114503-snh4gtgwb",
         data: {
-          text: "I used the Meta Prompting workflow to make those system prompts 🤯",
+          text: "Meta prompting in action\n\nThese system prompts were created using the Meta Prompting workflow.",
           loading: false,
         },
         position: {
@@ -956,7 +1128,7 @@ export const templates: Workflow[] = [
   },
   {
     id: "1751394123995-ip1wqog5q",
-    name: "Text improver (advanced)",
+    name: "Writing Assistant",
     nodes: [
       {
         id: "1",
@@ -1069,7 +1241,7 @@ export const templates: Workflow[] = [
       {
         id: "1751467596003-2odfqg01q",
         data: {
-          text: "Here is an example on how you can chain AI 🔗 to do more advanced stuff.\n\nHere we proofread and improve a text by generating 5 alternative versions and picking the best one.",
+          text: "Advanced AI chaining\n\nThis workflow chains multiple AI operations for sophisticated text processing.\n\nIt generates five alternative versions and selects the most suitable one based on context and audience.",
           loading: false,
         },
         position: {
@@ -1100,7 +1272,7 @@ export const templates: Workflow[] = [
       {
         id: "1751467871115-0q26zzl9q",
         data: {
-          text: "You can add labels to prompts so the AI knows what it's about when given multiple input at once.\n👇",
+          text: "Labeled inputs\n\nAdd labels to prompts so the AI understands the context when processing multiple inputs simultaneously.",
           loading: false,
         },
         position: {
@@ -1114,7 +1286,7 @@ export const templates: Workflow[] = [
       {
         id: "1751468448609-8n72073so",
         data: {
-          text: "Generate 5 variations 👉",
+          text: "Generate variations\n\nCreate five different text variations.",
           loading: false,
         },
         position: {
@@ -1128,7 +1300,7 @@ export const templates: Workflow[] = [
       {
         id: "1751468458582-f9t33ckih",
         data: {
-          text: "👈 Will pick the best one",
+          text: "Best selection\n\nThe AI will select the best variation automatically.",
           loading: false,
         },
         position: {
@@ -1142,7 +1314,7 @@ export const templates: Workflow[] = [
       {
         id: "1751468477166-yl0vtdekn",
         data: {
-          text: "It is using the AI output as input   👆",
+          text: "AI-to-AI processing\n\nUse an AI node's output as input for the next step.",
           loading: false,
         },
         position: {
@@ -1156,7 +1328,7 @@ export const templates: Workflow[] = [
       {
         id: "1zlcYsaQJwS7Dg7Y9XY2D",
         data: {
-          text: "The inputs 👉",
+          text: "Input data\n\nText and context inputs.",
           loading: false,
         },
         position: {
@@ -1287,10 +1459,10 @@ export const newWorkflow: Workflow = getCleanedWorkflow({
     },
     {
       id: "1Eln228LOIuueaQsjo7iS",
-      data: {
-        text: "1. Enter a prompt, it will be the input 👉",
-        loading: false,
-      },
+        data: {
+          text: "Step 1 — Input prompt\n\nEnter your input data here.",
+          loading: false,
+        },
       position: {
         x: -436,
         y: -44,
@@ -1301,10 +1473,10 @@ export const newWorkflow: Workflow = getCleanedWorkflow({
     },
     {
       id: "G1cVLVR_UXqHuJTvcSDy6",
-      data: {
-        text: "2. (optional) add a label to that input\n👇",
-        loading: false,
-      },
+        data: {
+          text: "Step 2 — Add label (optional)\n\nAdd a descriptive label to organize your inputs.",
+          loading: false,
+        },
       position: {
         x: 75,
         y: -224,
@@ -1315,10 +1487,10 @@ export const newWorkflow: Workflow = getCleanedWorkflow({
     },
     {
       id: "1cUhWCJYY2yPIz1E8QTZ2",
-      data: {
-        text: "3. Select an AI model\n👈",
-        loading: false,
-      },
+        data: {
+          text: "Step 3 — Select AI model\n\nChoose your preferred AI model.",
+          loading: false,
+        },
       position: {
         x: 526,
         y: 203,
@@ -1329,10 +1501,10 @@ export const newWorkflow: Workflow = getCleanedWorkflow({
     },
     {
       id: "2JvN0X5g11MosW9jPWa-e",
-      data: {
-        text: "4. Make a system prompt, it will act as instruction for the AI model                        👉",
-        loading: false,
-      },
+        data: {
+          text: "Step 4 — Configure system prompt\n\nDefine instructions for the AI model.",
+          loading: false,
+        },
       position: {
         x: -476,
         y: 288,
@@ -1343,10 +1515,10 @@ export const newWorkflow: Workflow = getCleanedWorkflow({
     },
     {
       id: "F20aItwJy3PrXqsRhNsl3",
-      data: {
-        text: "5. Press ▶️ and see the result here!\n👈",
-        loading: false,
-      },
+        data: {
+          text: "Step 5 — Execute and view results\n\nPress Run to execute and view the output here.",
+          loading: false,
+        },
       position: {
         x: 580,
         y: 684,

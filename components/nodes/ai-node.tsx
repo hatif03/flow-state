@@ -226,7 +226,7 @@ export const AiNode: NodeTypes[keyof NodeTypes] = (props) => {
 
   return (
     <NodeCard
-      title="AI model"
+      title="AI Model"
       node={props}
       buttons={
         <TooltipProvider>
@@ -238,23 +238,23 @@ export const AiNode: NodeTypes[keyof NodeTypes] = (props) => {
                     <RiSearchEyeLine className="size-5" />
                   </div>
                 </TooltipTrigger>
-                <TooltipContent>Preview formatted prompt</TooltipContent>
+                <TooltipContent>Preview Formatted Prompt</TooltipContent>
               </Tooltip>
             </DialogTrigger>
             <DialogContent className="max-h-screen overflow-y-auto">
               <DialogHeader>
-                <DialogTitle>Preview formatted prompt</DialogTitle>
+                <DialogTitle>Preview Formatted Prompt</DialogTitle>
                 <DialogDescription>
-                  This is the full prompt after formatting that will be sent to the AI model.
+                  This shows the complete prompt that will be sent to the AI model, including system instructions and user input.
                 </DialogDescription>
               </DialogHeader>
               <div className="flex flex-col text-sm">
                 <div className="p-3 bg-card rounded-md rounded-b-none border-b-2 border-dashed border-muted whitespace-pre-wrap flex flex-col gap-1">
-                  <span className="text-xs text-muted-foreground">System prompt</span>
+                  <span className="text-xs text-muted-foreground">System Instructions</span>
                   <p className=" break-all">{parsedData.data.systemPrompt}</p>
                 </div>
                 <div className="p-3 bg-card rounded-md rounded-t-none whitespace-pre-wrap flex flex-col gap-1">
-                  <span className="text-xs text-muted-foreground">User prompt</span>
+                  <span className="text-xs text-muted-foreground">User Input</span>
                   <p className="break-all">{formatedPrompt}</p>
                 </div>
               </div>
@@ -265,7 +265,7 @@ export const AiNode: NodeTypes[keyof NodeTypes] = (props) => {
     >
       <div className="p-3 gap-3 flex flex-col h-full overflow-hidden">
         <div className="flex items-center gap-2 flex-wrap">
-          <p className="text-sm text-muted-foreground"> {provider ? `Using ${provider}` : "No model selected"}</p>
+          <p className="text-sm text-muted-foreground"> {provider ? `Connected to ${provider}` : "No model selected"}</p>
           <div className="flex items-center gap-2">
             <ToggleGroup
               type="single"
@@ -279,8 +279,8 @@ export const AiNode: NodeTypes[keyof NodeTypes] = (props) => {
                 size="sm"
                 title={
                   parsedData.data.reasoning
-                    ? "Reasoning is enabled (not all models support it)"
-                    : "Reasoning is disabled"
+                    ? "Advanced reasoning enabled (limited model support)"
+                    : "Advanced reasoning disabled"
                 }
                 className="size-9"
               >
@@ -289,7 +289,7 @@ export const AiNode: NodeTypes[keyof NodeTypes] = (props) => {
             </ToggleGroup>
             <Select value={parsedData.data.modelId} onValueChange={handleModelChange}>
               <SelectTrigger className="nodrag ">
-                <SelectValue placeholder="Select an AI model" />
+                <SelectValue placeholder="Choose AI model" />
               </SelectTrigger>
               <SelectContent>
                 {Object.entries(providers).map(([provider, { models }]) => (
@@ -311,14 +311,14 @@ export const AiNode: NodeTypes[keyof NodeTypes] = (props) => {
             onClick={() => setApiKeysOpen(true)}
             className="text-xs text-destructive -mt-1 hover:underline cursor-pointer text-left underline-offset-4 w-fit"
           >
-            API key is not configured for {provider}. Click here to set it.
+            API key required for {provider}. Click to configure.
           </button>
         )}
         <DebouncedTextarea
           name="systemPrompt"
           value={parsedData.data.systemPrompt}
           onChange={handleSystemPromptChange}
-          placeholder="Enter your system prompt..."
+          placeholder="Enter system instructions for the AI model..."
           className="nodrag resize-none flex-1 min-h-0 nowheel nopan"
         />
       </div>

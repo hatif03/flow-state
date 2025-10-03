@@ -6,7 +6,6 @@ import "@xyflow/react/dist/style.css";
 import { useTheme } from "next-themes";
 import { useMemo } from "react";
 import { useShallow } from "zustand/react/shallow";
-import Logo from "./logo";
 import { AiNode } from "./nodes/ai-node";
 import { AnnotationNode } from "./nodes/annotation-node";
 import { MarkdownNode } from "./nodes/markdown-node";
@@ -62,9 +61,8 @@ export default function Workflow() {
       <div className="w-full h-full flex items-center justify-center">
         <SidebarTrigger className="absolute top-4 left-4" />
         <div className="text-center flex flex-col items-center gap-2">
-          <Logo className="size-40" />
-          <p className="text-foreground font-semibold text-2xl tracking-tight">No workflow selected</p>
-          <p className="text-sm text-muted-foreground">Create a workflow from the sidebar to get started</p>
+          <p className="text-foreground font-semibold text-2xl tracking-tight">No Workflow Selected</p>
+          <p className="text-sm text-muted-foreground">Create a new workflow from the sidebar to begin building AI-powered automation</p>
         </div>
       </div>
     );

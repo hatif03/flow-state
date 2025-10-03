@@ -1,8 +1,5 @@
 <a href="https://flowstate.app/" target="_blank" rel="noopener">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" alt="Flow State" srcset="./public/og-dark.png" />
-    <img alt="Flow State" src="./public/og.png" />
-  </picture>
+  Flow State
 </a>
 
 <h4 align="center">
@@ -25,19 +22,9 @@
 </p>
 
 <div align="center">
-  <figure>
-    <a href="https://flowstate.app" target="_blank" rel="noopener">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./public/screenshot-dark.png" />
-        <img src="./public/screenshot.png" alt="Product showcase" />
-      </picture>
-    </a>
-    <figcaption>
-      <p align="center">
-        Create reusable AI tasks with drag-and-drop nodes. Fully local, free, and open-source. Use any AI model with your own API keys.
-      </p>
-    </figcaption>
-  </figure>
+  <p>
+    Create reusable AI tasks with drag-and-drop nodes. Fully local, free, and open-source. Use any AI model with your own API keys.
+  </p>
 </div>
 
 ## What Problem It Solves

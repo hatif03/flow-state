@@ -22,9 +22,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Flow State",
+  title: "Flow State - Visual AI Workflow Builder",
   description:
-    "Free open-source node-based AI workflow builder. Create reusable tasks with drag-and-drop nodes, chain AI operations, use any model with your API keys. Runs entirely in browser, your data stays private. Perfect for email automation, content creation, data processing, etc.",
+    "Build powerful AI workflows with an intuitive node-based interface. Create, connect, and automate AI tasks without coding. Use any AI model with your own API keys. Runs entirely in your browser - your data never leaves your device. Perfect for email automation, content creation, data analysis, and more.",
 };
 
 export default function RootLayout({

@@ -83,7 +83,7 @@ export const MarkdownNode: NodeTypes[keyof NodeTypes] = (props) => {
             className="-m-1 size-8"
             onClick={handleCopy}
             disabled={!parsedData.data?.text}
-            title={copied ? "Copied" : "Copy to clipboard"}
+            title={copied ? "Copied!" : "Copy to clipboard"}
           >
             {copied ? (
               <RiCheckboxMultipleFill className="size-5" />
@@ -135,7 +135,7 @@ export const MarkdownNode: NodeTypes[keyof NodeTypes] = (props) => {
                 {parseMarkdown(parsedData.data.text)}
               </Markdown>
             ) : (
-              <span className="text-muted-foreground text-sm">No text</span>
+              <span className="text-muted-foreground text-sm">No content to display</span>
             )}
           </div>
         )}

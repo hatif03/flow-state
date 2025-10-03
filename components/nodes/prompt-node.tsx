@@ -78,7 +78,7 @@ export const PromptNode: NodeTypes[keyof NodeTypes] = (props) => {
           <Input
             value={parsedData.data.label || ""}
             onChange={handleLabelChange}
-            placeholder="Enter a label..."
+            placeholder="Add label (optional)..."
             className="w-full bg-transparent -my-2 h-8 text-sm nodrag"
           />
         </div>
@@ -89,7 +89,7 @@ export const PromptNode: NodeTypes[keyof NodeTypes] = (props) => {
         name="prompt"
         value={parsedData.data.prompt}
         onChange={handlePromptChange}
-        placeholder="Enter your prompt..."
+        placeholder="Enter input data or prompt text..."
         className="nodrag resize-none w-full !ring-0 h-full border-none rounded-none rounded-b-xl nowheel nopan"
       />
       <Handle type="source" position={Position.Bottom}></Handle>

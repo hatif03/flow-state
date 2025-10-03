@@ -17,20 +17,17 @@ import { useWorkflowStore } from "@/lib/workflow-store";
 import {
   RiAddLine,
   RiArrowDownBoxLine,
-  RiComputerLine,
   RiGithubLine,
   RiKeyLine,
   RiMoonLine,
   RiSunLine,
 } from "@remixicon/react";
-import { MoreVerticalIcon } from "lucide-react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useShallow } from "zustand/react/shallow";
 import ApiKeys from "./api-keys";
 import ImportDialog from "./import-dialog";
-import Logo from "./logo";
 
 export function AppSidebar() {
   const { setTheme,resolvedTheme } = useTheme();
@@ -84,12 +81,9 @@ export function AppSidebar() {
   return (
     <Sidebar>
       <SidebarHeader>
-        <div className="px-2 flex items-center gap-2">
-          <Logo className="size-18" />
-          <span className="text-2xl tracking-tighter font-sans leading-none font-medium">
-            Flow
-            <br />
-            State
+        <div className="px-2 flex items-center">
+          <span className="text-2xl tracking-tighter font-sans leading-none font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent drop-shadow-sm">
+            FlowState
           </span>
         </div>
       </SidebarHeader>

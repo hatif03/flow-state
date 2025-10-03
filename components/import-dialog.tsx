@@ -31,13 +31,13 @@ export default function ImportDialog({ children }: { children: React.ReactNode }
         <DialogHeader>
           <DialogTitle>Import Workflow</DialogTitle>
           <DialogDescription>
-            Paste the JSON data of a workflow to import it. This will create a new workflow with the imported data.
+            Import a workflow by pasting its JSON data. This will create a new workflow with the imported configuration and nodes.
           </DialogDescription>
         </DialogHeader>
 
         <div className="space-y-4">
           <Textarea
-            placeholder="Paste your workflow JSON here..."
+            placeholder="Paste workflow JSON data here..."
             value={jsonInput}
             onChange={(e) => setJsonInput(e.target.value)}
             className="h-[300px] break-all font-mono text-sm overflow-y-auto"

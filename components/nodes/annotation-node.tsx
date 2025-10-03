@@ -63,7 +63,7 @@ export const AnnotationNode: NodeTypes[keyof NodeTypes] = (props) => {
         name="text"
         value={parsedData.data.text}
         onChange={handleTextChange}
-        placeholder="Type something..."
+        placeholder="Add notes, instructions, or documentation..."
         className="nodrag nowheel min-h-0 dark:bg-transparent nopan font-handwriting shadow-none h-full w-full resize-none rounded-xl border-none bg-transparent !ring-0 text-muted-foreground !text-2xl"
       />
 
@@ -77,10 +77,10 @@ export const AnnotationNode: NodeTypes[keyof NodeTypes] = (props) => {
         </NodeResizeControl>
       )}
       <NodeToolbar className="flex gap-2 items-center">
-        <Button title="Duplicate this node" variant="default" size={"icon"} onClick={handleDuplicate}>
+        <Button title="Duplicate annotation" variant="default" size={"icon"} onClick={handleDuplicate}>
           <RiFileCopyLine className="size-5" />
         </Button>
-        <Button title="Delete this node" variant="default" size={"icon"} onClick={handleDelete}>
+        <Button title="Delete annotation" variant="default" size={"icon"} onClick={handleDelete}>
           <RiDeleteBin2Line className="size-5" />
         </Button>
       </NodeToolbar>

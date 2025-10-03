@@ -46,14 +46,14 @@ export default function ApiKeys({ children }: { children: React.ReactNode }) {
       <DialogTrigger asChild>{children}</DialogTrigger>
       <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto">
         <DialogHeader>
-          <DialogTitle>API Keys</DialogTitle>
+          <DialogTitle>API Keys Configuration</DialogTitle>
           <DialogDescription>
-            Configure your API keys for each provider. Keys are stored locally in your browser.
+            Configure your API keys for AI providers. All keys are stored securely in your browser and never transmitted to our servers.
           </DialogDescription>
         </DialogHeader>
 
         <div className="space-y-4">
-          <h3 className="text-sm font-medium">Available Providers</h3>
+          <h3 className="text-sm font-medium">AI Providers</h3>
           <div className="grid gap-3">
             {Object.entries(providers).map(([providerId]) => (
               <div key={providerId} className="bg-card p-3 rounded-lg flex flex-col gap-1">
@@ -62,7 +62,7 @@ export default function ApiKeys({ children }: { children: React.ReactNode }) {
                     <RiKey2Line className="size-5" />
                     <span className="text-sm font-medium">{providerId}</span>
                     {apiKeys[providerId] && (
-                      <span className="text-xs text-green-600 bg-green-200 dark:bg-green-500/20 dark:text-green-400 px-2 py-1 rounded">✓ Configured</span>
+                      <span className="text-xs text-green-600 bg-green-200 dark:bg-green-500/20 dark:text-green-400 px-2 py-1 rounded">✓ Active</span>
                     )}
                   </div>
                   <Link
@@ -70,7 +70,7 @@ export default function ApiKeys({ children }: { children: React.ReactNode }) {
                     target="_blank"
                     className="text-muted-foreground underline underline-offset-4 text-xs"
                   >
-                    Find it here
+                    Get API Key
                   </Link>
                 </div>
 
